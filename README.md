@@ -7,4 +7,4 @@
 #### 每个项目的阶段
 
 
-#### mybatis项目是springboot+mybatis+mybatis插件，自动生成mapper和dao等类文件
+#### mybatis项目是springboot+mybatis+mybatis插件，自动生成mapper映射文件和dao接口，实体类等类文件
