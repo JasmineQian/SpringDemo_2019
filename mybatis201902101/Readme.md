@@ -1,0 +1,9 @@
+"" 
+com.mysql.cj.jdbc.Driver
+
+
+#mysql drive
+spring.datasource.driverClassName = com.mysql.cj.jdbc.Driver
+spring.datasource.url = jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf-8
+spring.datasource.username = root
+spring.datasource.password =root
