@@ -53,7 +53,6 @@ public class TestMyBatis {
         SqlSession session =sessionFactory.openSession();
         String statement = "useraaa.selectAll";
 
-
         List<User> user = session.selectList(statement);
         System.out.println(user);
         session.close();

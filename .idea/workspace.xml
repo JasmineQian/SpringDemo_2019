@@ -2,19 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e42809c5-ea4e-44b9-978e-c535c6de909e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis02/src/main/java/com/example/mybatis02/controller/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02/src/main/java/com/example/mybatis02/dao/QaBuglistMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02/src/main/java/com/example/mybatis02/dao/QaEmployMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02/src/main/java/com/example/mybatis02/model/QaBuglist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02/src/main/java/com/example/mybatis02/model/QaEmploy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02/src/main/resources/mapper/QaBuglistMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis02/src/main/resources/mapper/QaEmployMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay05" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay05" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringbootDemoDay03" beforeDir="false" afterPath="$PROJECT_DIR$/SpringbootDemoDay03" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Springboot_freemaker_ftl" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaBuglistMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaBuglistMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis02/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/target/classes/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttt" beforeDir="false" afterPath="$PROJECT_DIR$/ttt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,59 +28,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="418">
-                <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringDemoDay02/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="304">
+              <caret line="52" column="20" selection-end-line="97" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis02/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1271">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ttt/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-135" />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="56" column="19" selection-start-line="22" selection-start-column="4" selection-end-line="56" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="buglist-mysql.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bugManagement/buglist-mysql.sql">
+        <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="BugController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/controller/BugController.java">
+      <file leaf-file-name="TestMyBatis.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="71" column="5" selection-start-line="60" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMyBatis02.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="QaEmployMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaEmployMapper.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -89,6 +114,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaBuglistMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis02/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" />
+        <option value="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" />
+        <option value="$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/TestUser.java" />
       </list>
     </option>
   </component>
@@ -101,11 +133,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -115,6 +147,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,87 +158,75 @@
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mybaitis" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mybaitis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="mybaitis" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -213,56 +234,17 @@
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyGithub" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyGithub" type="b2602c69:ProjectViewProjectNode" />
@@ -273,18 +255,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/SpringDemoDay05" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis201902101" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\000_Mark\MyGithub\mybatis201902101\src\main\java\com\test\mybatis\entity" />
+      <recent name="D:\000_Mark\MyGithub\mybatis201902101\src\test\java" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -352,14 +339,16 @@
       <option name="presentableId" value="Default" />
       <updated>1548903115209</updated>
       <workItem from="1548903116521" duration="7221000" />
+      <workItem from="1549016074970" duration="3721000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7221000" />
+    <option name="totallyTimeSpent" value="10942000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -369,25 +358,25 @@
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.39400667" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.29424307" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30032292" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -397,9 +386,51 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="418">
+            <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringDemoDay02/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bugManagement/buglist-mysql.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/controller/BugController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
+        <state relative-caret-position="1178">
+          <caret line="71" column="5" selection-start-line="60" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="56" column="19" selection-start-line="22" selection-start-column="4" selection-end-line="56" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/controller/BugController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
           <caret line="71" column="5" selection-start-line="60" selection-start-column="4" selection-end-line="71" selection-end-column="5" />
         </state>
       </provider>
@@ -432,12 +463,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaBuglistMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="56" column="19" selection-start-line="22" selection-start-column="4" selection-end-line="56" selection-end-column="19" />
+        <state relative-caret-position="449">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaEmployMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="52" column="20" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis02/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1271">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ttt/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-135" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

@@ -12,12 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="20" lean-forward="true" selection-end-line="36" selection-end-column="10" />
+              <caret line="11" column="20" selection-end-line="36" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -27,28 +27,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="38">
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#216#217#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#436#437#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#538#539#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#638#639#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#757#758#0" expanded="true" />
-                <element signature="e#783#784#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#852#853#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -57,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -66,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="363">
-              <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+              <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,8 +55,29 @@
       <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+            <state relative-caret-position="382">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMyBatis02.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis02.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlSession.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSession.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -122,8 +121,10 @@
         <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestMyBatis.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestMyBatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestUser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestMyBatis02.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
       </list>
     </option>
   </component>
@@ -144,16 +145,19 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1918" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,16 +215,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -242,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestMyBatis">
+  <component name="RunManager" selected="TestNG.TestMyBatis02.Delete">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -285,6 +288,75 @@
       <properties />
       <listeners />
     </configuration>
+    <configuration name="TestMyBatis02.Delete" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mybatis201902101" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyBatis02" />
+      <option name="METHOD_NAME" value="Delete" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestMyBatis02.Reader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mybatis201902101" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyBatis02" />
+      <option name="METHOD_NAME" value="Reader" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="TestMyBatis02.Update" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mybatis201902101" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMyBatis02" />
+      <option name="METHOD_NAME" value="Update" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
     <configuration name="TestMyBatis.Reader (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mybatis201902101" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -293,75 +365,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestMyBatis" />
       <option name="METHOD_NAME" value="Reader" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestMyBatis.Reader" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mybatis201902101" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMyBatis" />
-      <option name="METHOD_NAME" value="Reader" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestMyBatis.selectAll (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mybatis201902101" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMyBatis" />
-      <option name="METHOD_NAME" value="selectAll" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
-    <configuration name="TestMyBatis.selectAll (3)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mybatis201902101" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestMyBatis" />
-      <option name="METHOD_NAME" value="selectAll" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -400,19 +403,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestMyBatis.Reader" />
-      <item itemvalue="TestNG.TestMyBatis.selectAll (2)" />
-      <item itemvalue="TestNG.TestMyBatis.selectAll (3)" />
       <item itemvalue="TestNG.TestMyBatis.Reader (1)" />
       <item itemvalue="TestNG.TestMyBatis" />
+      <item itemvalue="TestNG.TestMyBatis02.Reader" />
+      <item itemvalue="TestNG.TestMyBatis02.Update" />
+      <item itemvalue="TestNG.TestMyBatis02.Delete" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestMyBatis02.Delete" />
+        <item itemvalue="TestNG.TestMyBatis02.Update" />
+        <item itemvalue="TestNG.TestMyBatis02.Reader" />
         <item itemvalue="TestNG.TestMyBatis" />
         <item itemvalue="TestNG.TestMyBatis.Reader (1)" />
-        <item itemvalue="TestNG.TestMyBatis.Reader" />
-        <item itemvalue="TestNG.TestMyBatis.selectAll (3)" />
-        <item itemvalue="TestNG.TestMyBatis.selectAll (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -427,19 +430,11 @@
       <option name="presentableId" value="Default" />
       <updated>1549007289017</updated>
       <workItem from="1549007292100" duration="6712000" />
+      <workItem from="1549082678174" duration="600000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMyBatis_TestInputStream - 2019.02.01 at 17h 00m 48s.xml">
-      <configuration name="TestMyBatis.TestInputStream" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMyBatis_Reader - 2019.02.01 at 17h 02m 28s.xml">
-      <configuration name="TestMyBatis.Reader" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMyBatis_selectAll - 2019.02.01 at 17h 06m 09s.xml">
-      <configuration name="TestMyBatis.selectAll" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMyBatis_selectAll_(1) - 2019.02.01 at 17h 06m 22s.xml">
       <configuration name="TestMyBatis.selectAll (1)" configurationId="TestNG" />
     </history-entry>
@@ -458,42 +453,54 @@
     <history-entry file="TestMyBatis - 2019.02.01 at 17h 10m 34s.xml">
       <configuration name="TestMyBatis" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMyBatis02_Reader - 2019.02.02 at 12h 47m 37s.xml">
+      <configuration name="TestMyBatis02.Reader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMyBatis02_Reader - 2019.02.02 at 12h 48m 41s.xml">
+      <configuration name="TestMyBatis02.Reader" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMyBatis02_Update - 2019.02.02 at 12h 52m 41s.xml">
+      <configuration name="TestMyBatis02.Update" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMyBatis02_Update - 2019.02.02 at 12h 53m 32s.xml">
+      <configuration name="TestMyBatis02.Update" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6712000" />
+    <option name="totallyTimeSpent" value="7312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32963374" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32963374" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32963374" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32963374" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -503,9 +510,58 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/Interger.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="20" lean-forward="true" selection-end-line="36" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="96" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="96" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/Interger.java" />
     <entry file="file://$PROJECT_DIR$/mybatis201902101.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -519,30 +575,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestMyBatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="28" column="24" selection-start-line="16" selection-start-column="8" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestMyBatis.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="20" lean-forward="true" selection-end-line="36" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="46" column="34" lean-forward="true" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="11" column="20" selection-end-line="36" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -550,42 +587,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#216#217#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#306#307#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#496#497#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.0/mybatis-3.5.0.jar!/org/apache/ibatis/session/SqlSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+        <state relative-caret-position="382">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>

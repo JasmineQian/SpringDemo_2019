@@ -5,7 +5,7 @@
 
 
 <mapper namespace="useraaa">
-    <select id="selectById" resultType="com.test.mybatis.entity.User">
+    <select id="selectById" parameterType ="int" resultType="com.test.mybatis.entity.User">
         select * from user where id = #{id}
     </select>
 
@@ -13,5 +13,18 @@
         select * from user
     </select>
 
+    <insert  id="addUser" parameterType="com.test.mybatis.entity.User">
+        insert into user (name,age,phone,password) values(#{name},#{age},#{phone},#{password})
+    </insert>
+
+
+    <update  id="updateUser" parameterType="com.test.mybatis.entity.User">
+        update user set name = #{name},age =#{age},phone =#{phone},password = #{password} where id = #{id}
+    </update>
+
+
+    <delete  id="deleteUserById" parameterType ="int">
+        delete from user where id = #{id}
+    </delete>
 
 </mapper>
