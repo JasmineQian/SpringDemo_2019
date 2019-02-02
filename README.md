@@ -16,6 +16,8 @@
 
 #### mybatis项目是springboot+mybatis+mybatis插件，自动生成mapper映射文件和dao接口，实体类等类文件
 
+#### mybatis20190201项目是mybatis入门文档，介绍了对表和对象的增删改查
+
 #### bugManagement项目是springboot+jdbcTemplate+themleaf,其中sql语句也在项目下，实现基本接口的增删改查
 
 #### Springboot_freemaker_ftl项目是springboot+jdbcTemplate+freemaker,其中sql语句也在项目下，实现基本接口的增删改查
