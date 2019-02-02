@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e42809c5-ea4e-44b9-978e-c535c6de909e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay05" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay05" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringbootDemoDay03" beforeDir="false" afterPath="$PROJECT_DIR$/SpringbootDemoDay03" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Springboot_freemaker_ftl" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaBuglistMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/src/main/resources/mapper/QaBuglistMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis02/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/target/classes/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/src/main/resources/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/src/main/resources/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ttt" beforeDir="false" afterPath="$PROJECT_DIR$/ttt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -133,7 +125,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1918" />
@@ -339,16 +331,15 @@
       <option name="presentableId" value="Default" />
       <updated>1548903115209</updated>
       <workItem from="1548903116521" duration="7221000" />
-      <workItem from="1549016074970" duration="3721000" />
+      <workItem from="1549016074970" duration="4359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10942000" />
+    <option name="totallyTimeSpent" value="11580000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1918" height="1038" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -360,10 +351,10 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.30032292" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.30032292" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />

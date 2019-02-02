@@ -34,16 +34,16 @@
       <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            <state relative-caret-position="133">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMyBatis.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestMyBatis.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
+            <state relative-caret-position="451">
               <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+            <state relative-caret-position="116">
+              <caret line="7" column="90" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -64,8 +64,8 @@
       <file leaf-file-name="TestMyBatis02.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis02.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+            <state relative-caret-position="249">
+              <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="73" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,13 +118,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/Ma/TestMyBatis.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestMyBatis.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/TestMyBatis.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestUser.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestMyBatis02.java" />
         <option value="$PROJECT_DIR$/src/main/resources/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestMyBatis02.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config.xml" />
       </list>
     </option>
   </component>
@@ -430,17 +430,11 @@
       <option name="presentableId" value="Default" />
       <updated>1549007289017</updated>
       <workItem from="1549007292100" duration="6712000" />
-      <workItem from="1549082678174" duration="600000" />
+      <workItem from="1549082678174" duration="3436000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMyBatis_selectAll_(1) - 2019.02.01 at 17h 06m 22s.xml">
-      <configuration name="TestMyBatis.selectAll (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestMyBatis_selectAll_(2) - 2019.02.01 at 17h 07m 09s.xml">
-      <configuration name="TestMyBatis.selectAll (2)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TestMyBatis_selectAll_(3) - 2019.02.01 at 17h 07m 55s.xml">
       <configuration name="TestMyBatis.selectAll (3)" configurationId="TestNG" />
     </history-entry>
@@ -465,9 +459,15 @@
     <history-entry file="TestMyBatis02_Update - 2019.02.02 at 12h 53m 32s.xml">
       <configuration name="TestMyBatis02.Update" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestMyBatis02_Delete - 2019.02.02 at 12h 56m 30s.xml">
+      <configuration name="TestMyBatis02.Delete" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestMyBatis02_Delete - 2019.02.02 at 12h 57m 32s.xml">
+      <configuration name="TestMyBatis02.Delete" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7312000" />
+    <option name="totallyTimeSpent" value="10148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -483,11 +483,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32963374" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -583,20 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/TestUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -611,20 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis02.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="61" column="29" selection-start-line="61" selection-start-column="29" selection-end-line="61" selection-end-column="29" />
+        <state relative-caret-position="249">
+          <caret line="67" column="57" lean-forward="true" selection-start-line="67" selection-start-column="57" selection-end-line="73" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -633,8 +609,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        <state relative-caret-position="116">
+          <caret line="7" column="90" lean-forward="true" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/mybatis/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestMyBatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

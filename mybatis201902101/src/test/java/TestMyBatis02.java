@@ -63,7 +63,7 @@ public class TestMyBatis02 {
     public void Delete() throws IOException {
 
         Reader reader =Resources.getResourceAsReader("config.xml");
-        SqlSessionFactory sessionFactory= new SqlSessionFactoryBuilder().build(reader);
+        SqlSessionFactory sessionFactory= new SqlSessionFactoryBuilder().build(reader,"development");
 
         SqlSession session =sessionFactory.openSession();
         String statement = "useraaa.deleteUserById";
