@@ -23,3 +23,6 @@
 #### Springboot_freemaker_ftl项目是springboot+jdbcTemplate+freemaker,其中sql语句也在项目下，实现基本接口的增删改查
 
 #### SpringbootDemo3项目是与bugManagement项目重复了
+
+
+#### pringboot2mybatis项目springboot和MyBatis集成的项目，实现了增删改查

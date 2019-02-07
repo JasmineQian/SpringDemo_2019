@@ -2,5 +2,15 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringDemoDay02" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringDemoDay05" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringbootDay06" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringbootDemoDay03" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Springboot_freemaker_ftl" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bugManagement" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/mybatis" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/swagger2test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ttt" vcs="Git" />
   </component>
 </project>
