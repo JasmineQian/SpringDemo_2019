@@ -95,16 +95,7 @@
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bugManagement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/controller/userController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/mapper/userMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/service/userService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/serviceImp/userServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/resources/mapper/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/resources/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/resources/sql/user.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/swagger2test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02" afterDir="false" />
@@ -243,11 +234,15 @@
       <change beforePath="$PROJECT_DIR$/bugManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/src/main/resources/application-test.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/target/classes/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis20190203/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis20190203/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/com/test/mybatis/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis02.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ttt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -262,8 +257,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="383">
-                <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <first_editor relative-caret-position="250">
+                <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -369,7 +364,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="1" />
     <option name="y" value="1" />
     <option name="width" value="1918" />
@@ -390,19 +385,24 @@
               <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis20190201" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -485,15 +485,15 @@
       <workItem from="1549344564564" duration="15000" />
       <workItem from="1549532560175" duration="953000" />
       <workItem from="1549535306936" duration="677000" />
+      <workItem from="1549541628586" duration="730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15393000" />
+    <option name="totallyTimeSpent" value="16123000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1918" height="1038" extended-state="1" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -508,7 +508,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3164693" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3196986" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -579,14 +579,7 @@
     <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttt/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ttt/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -611,14 +604,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttt/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ttt/README.md" />
     <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -684,14 +670,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttt/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ttt/README.md" />
     <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -859,14 +838,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ttt/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ttt/README.md" />
     <entry file="file://$PROJECT_DIR$/mybatis02/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -877,8 +849,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="383">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <first_editor relative-caret-position="250">
+            <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
