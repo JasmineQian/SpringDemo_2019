@@ -95,9 +95,21 @@
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bugManagement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/controller/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/controller/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/controller/userController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/mapper/userMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/service/userService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/serviceImp/userServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/resources/mapper/config/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/resources/mapper/userMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/resources/sql/user.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/swagger2test/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02/src/main/java/com/example/demo/bean/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02/src/main/java/com/example/demo/bean/Book.java" afterDir="false" />
@@ -234,12 +246,20 @@
       <change beforePath="$PROJECT_DIR$/bugManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/src/main/resources/application-test.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/target/classes/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis201902101/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/com/test/mybatis/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/classes/config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis201902101/target/test-classes/TestMyBatis02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybaitis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis20190201/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis20190201/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test/pom.xml" afterDir="false" />
@@ -253,14 +273,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="250">
+              <first_editor relative-caret-position="207">
                 <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot2mybatis/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="15" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot2mybatis/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="61" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -281,59 +319,6 @@
               <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="TestMyBatis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestMyBatis02.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -378,6 +363,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -388,21 +375,88 @@
             <path>
               <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis201902101" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot2mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis20190201" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -486,14 +540,17 @@
       <workItem from="1549532560175" duration="953000" />
       <workItem from="1549535306936" duration="677000" />
       <workItem from="1549541628586" duration="730000" />
+      <workItem from="1549542658697" duration="1129000" />
+      <workItem from="1549630163155" duration="1254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16123000" />
+    <option name="totallyTimeSpent" value="18506000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -508,7 +565,7 @@
       <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3196986" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.32723358" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -531,54 +588,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis02/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/ttt/README.md" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -605,47 +619,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ttt/README.md" />
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -671,47 +650,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ttt/README.md" />
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -796,48 +740,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/User.java" />
     <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/java/com/test/mybatis/entity/TestUser.java" />
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md" />
     <entry file="file://$PROJECT_DIR$/ttt/README.md" />
     <entry file="file://$PROJECT_DIR$/mybatis02/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -849,10 +758,24 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="250">
+          <first_editor relative-caret-position="207">
             <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot2mybatis/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot2mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="61" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>

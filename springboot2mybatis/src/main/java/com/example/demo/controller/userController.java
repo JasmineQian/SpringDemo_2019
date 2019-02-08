@@ -7,14 +7,12 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
-@Api(tags = {"demo接口"})
+@Api(tags = {"user接口"})
 @Controller
 @RequestMapping("user")
 public class userController {
@@ -23,7 +21,7 @@ public class userController {
 	private userServiceImp userService;
 
     @ApiOperation(value = "显示全部用户的信息倒序")
-    @RequestMapping("userLists")
+    @RequestMapping(value = "userLists", method = RequestMethod.GET)
 	@ResponseBody
 	public List<User> showUsers() {
 		List<User> list = userService.findAll();
@@ -31,7 +29,7 @@ public class userController {
 	}
 
     @ApiOperation(value = "显示全部用户的信息")
-	@RequestMapping("selectAll")
+	@GetMapping("selectAll")
 	@ResponseBody
 	public List<User> selectAll() {
 		List<User> list = userService.selectAll();
@@ -39,7 +37,7 @@ public class userController {
 	}
 
     @ApiOperation(value = "根据ID查询用户的信息")
-	@RequestMapping("selectById")
+	@GetMapping("selectById")
 	@ResponseBody
 	public List<User> selectById(int id) {
 		List<User> list = userService.selectById(300);

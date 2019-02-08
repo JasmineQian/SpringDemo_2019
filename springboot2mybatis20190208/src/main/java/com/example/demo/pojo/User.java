@@ -8,7 +8,7 @@ import java.io.Serializable;
 @ApiModel(value = "类")
 public class User implements Serializable {
 	@ApiModelProperty(value = "用户ID")
-	private Long id;
+	private int id;
 	@ApiModelProperty(value = "用户姓名")
 	private String name;
 	@ApiModelProperty(value = "用户年龄")
@@ -20,11 +20,11 @@ public class User implements Serializable {
 	@ApiModelProperty(value = "用户标记")
 	private boolean flag;
 
-	public Long getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Long id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
