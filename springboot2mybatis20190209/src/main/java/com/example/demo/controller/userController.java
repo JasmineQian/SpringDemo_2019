@@ -30,6 +30,8 @@ public class userController {
     	Result result =new Result();
     	int currentPage = page.getCurrentPage();
     	int pageSize= page.getPageSize();
+    	int starter =page.getStarter(currentPage,pageSize);
+        System.out.println(starter);
 
     	PageList pageList = new PageList();
         if(currentPage == 0){currentPage=1;}

@@ -13,7 +13,7 @@
     
 	
 	<select id="findAll" parameterType="com.example.demo.pojo.Page" resultMap="userResultMap">
-     SELECT id,name,age,phone,password,flag FROM user order by id desc limit #{currentPage} , #{pageSize}
+     SELECT id,name,age,phone,password,flag FROM user order by id desc limit #{starter} , #{pageSize}
 	</select>
 
     <select id="findAllByConditions" parameterType="com.example.demo.pojo.User" resultMap="userResultMap">

@@ -4,6 +4,11 @@ public class Page {
 
     private int currentPage;
     private int pageSize;
+    private int starter;
+
+    public int getStarter(int currentPage,int pageSize) {
+        return starter=(currentPage-1)*pageSize;
+    }
 
     public int getCurrentPage() {
         return currentPage;
