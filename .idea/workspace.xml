@@ -8,9 +8,6 @@
       <change beforePath="$PROJECT_DIR$/SpringbootDemoDay03" beforeDir="false" afterPath="$PROJECT_DIR$/SpringbootDemoDay03" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Springboot_freemaker_ftl" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis20190201/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis20190201/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis20190203/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis20190203/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,10 +29,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1918" />
-    <option name="height" value="1038" />
+    <option name="x" value="250" />
+    <option name="y" value="55" />
+    <option name="width" value="1575" />
+    <option name="height" value="907" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -51,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis20190201" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbcTemplate2page" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -121,12 +118,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549734651153</updated>
       <workItem from="1549734652421" duration="175000" />
-      <workItem from="1549736412393" duration="586000" />
+      <workItem from="1549736412393" duration="877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="761000" />
+    <option name="totallyTimeSpent" value="1052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />

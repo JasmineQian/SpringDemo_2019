@@ -30,7 +30,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<User> findAllbyPage(int pagenum, int pagerow) {
-        String sql = "select id, name, age from user order by id asc  limit " + pagenum +" , "+ pagerow;
+        int starter = (pagenum-1)*pagerow;
+        String sql = "select id, name, age from user order by id asc  limit " + starter +" , "+ pagerow;
         List<User> list = jdbcTemplate.query(sql,new UserRowMapper());
 
         return list;
