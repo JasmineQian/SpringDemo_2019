@@ -5,7 +5,7 @@ import io.swagger.annotations.ApiModelProperty;
 
 import java.io.Serializable;
 
-@ApiModel(value = "类")
+@ApiModel(value = "User类")
 public class User implements Serializable {
 	@ApiModelProperty(value = "用户ID")
 	private int id;

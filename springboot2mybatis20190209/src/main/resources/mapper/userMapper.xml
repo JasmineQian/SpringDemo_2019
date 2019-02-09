@@ -16,6 +16,12 @@
      SELECT id,name,age,phone,password,flag FROM user order by id desc
 	</select>
 
+    <select id="countAll">
+     SELECT count(*) FROM user
+	</select>
+
+
+
     <select id="selectById" parameterType ="int" resultMap="userResultMap">
         select * from user where id = #{id}
     </select>

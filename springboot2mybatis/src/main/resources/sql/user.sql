@@ -35,3 +35,5 @@ CREATE TABLE `user` (
 
 select * from user
 desc user;
+
+delete from user where id >300

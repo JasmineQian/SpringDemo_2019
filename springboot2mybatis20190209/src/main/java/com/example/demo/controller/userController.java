@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.pojo.User;
-import com.example.demo.serviceImp.userServiceImp;
+import com.example.demo.service.impl.userServiceImp;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -25,14 +25,27 @@ public class userController {
     @ApiOperation(value = "显示全部用户的信息倒序")
     @RequestMapping(value = "userLists", method = RequestMethod.GET)
 	@ResponseBody
-	public Result showUsers() {
+	public Result showUsers(@RequestParam int currentPage,@RequestParam int pageSize) {
     	Result result =new Result();
-    	List<User> list = userService.findAll();
+    	//PageInfo pageInfo =
+        List<User> list=userService.findAll(currentPage,pageSize);
 		result.setCode("000");
 		result.setMsg("success");
 		result.setData(list);
 		return result;
 	}
+
+    @ApiOperation(value = "显示全部用户的信息倒序")
+    @RequestMapping(value = "countAll", method = RequestMethod.GET)
+    @ResponseBody
+    public Result countAll() {
+        Result result =new Result();
+        int countAll = userService.countAll();
+        result.setCode("000");
+        result.setMsg("success");
+        result.setData(countAll);
+        return result;
+    }
 
     @ApiOperation(value = "显示全部用户的信息")
 	@GetMapping("selectAll")

@@ -95,19 +95,6 @@
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bugManagement/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/controller/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/SwaggerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/controller/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/controller/userController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/mapper/userMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/service/userService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/java/com/example/demo/serviceImp/userServiceImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/resources/mapper/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/resources/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot2mybatis20190208/src/main/resources/sql/user.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/swagger2test/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02" afterDir="false" />
@@ -241,25 +228,13 @@
       <change beforePath="$PROJECT_DIR$/bugManagement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugManagement/buglist-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/src/main/resources/sql/buglist-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugManagement/buglist.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/src/main/resources/sql/buglist.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/demo.log" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/demo.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/demo8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/buglist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/src/main/resources/application-test.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/target/classes/application-test.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis/mybatis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis/mybaitis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis20190201/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis20190201/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/controller/userController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot2mybatis/src/main/java/com/example/demo/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test/pom.xml" afterDir="false" />
@@ -277,7 +252,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="207">
+              <first_editor relative-caret-position="361">
                 <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               </first_editor>
               <second_editor />
@@ -294,11 +269,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot2mybatis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="78">
               <caret line="61" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadME.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bugManagement/ReadME.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-2353" />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -324,7 +309,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/bugManagement" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -363,8 +348,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -462,6 +447,9 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\000_Mark\MySpringBootDemos\bugManagement\src\main\resources\sql" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\000_Mark\MyGithub\mybatis201902101\src\main\java\com\test\mybatis\entity" />
       <recent name="D:\000_Mark\MyGithub\mybatis201902101\src\test\java" />
@@ -542,15 +530,15 @@
       <workItem from="1549541628586" duration="730000" />
       <workItem from="1549542658697" duration="1129000" />
       <workItem from="1549630163155" duration="1254000" />
+      <workItem from="1549637678607" duration="442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18506000" />
+    <option name="totallyTimeSpent" value="18948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -562,10 +550,10 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.32723358" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.33100107" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -588,7 +576,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis.java" />
     <entry file="file://$PROJECT_DIR$/mybatis201902101/Readme.md" />
     <entry file="file://$PROJECT_DIR$/mybatis201902101/src/test/java/TestMyBatis02.java" />
     <entry file="file://$PROJECT_DIR$/mybatis201902101/src/main/resources/UserMapper.xml" />
@@ -681,7 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bugManagement/buglist-mysql.sql">
+    <entry file="file://$PROJECT_DIR$/bugManagement/src/main/resources/sql/buglist-mysql.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/controller/BugController.java">
@@ -705,7 +692,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bugManagement/buglist-mysql.sql">
+    <entry file="file://$PROJECT_DIR$/bugManagement/src/main/resources/sql/buglist-mysql.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringDemoDay02/README.md">
@@ -758,7 +745,7 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="207">
+          <first_editor relative-caret-position="361">
             <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
           </first_editor>
           <second_editor />
@@ -776,6 +763,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="61" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bugManagement/ReadME.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-2353" />
+          <second_editor />
         </state>
       </provider>
     </entry>
