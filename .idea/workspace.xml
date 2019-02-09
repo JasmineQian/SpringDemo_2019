@@ -95,8 +95,9 @@
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/bugManagement/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/dao/PageDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/utils/PageList.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/swagger2test/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02/src/main/java/com/example/demo/bean/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02/src/main/java/com/example/demo/bean/Book.java" afterDir="false" />
@@ -233,6 +234,7 @@
       <change beforePath="$PROJECT_DIR$/bugManagement/demo.log" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/demo.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/demo8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/buglist.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/service/impl/BugServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/bugManagement/src/main/java/com/jasmine/demo/service/impl/BugServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/src/main/resources/application-test.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bugManagement/target/classes/application-test.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/swagger2test" beforeDir="false" afterPath="$PROJECT_DIR$/swagger2test" afterDir="false" />
@@ -272,7 +274,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot2mybatis/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="1159">
               <caret line="61" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
@@ -282,7 +284,7 @@
         <entry file="file://$PROJECT_DIR$/bugManagement/ReadME.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2353" />
+              <first_editor />
               <second_editor />
             </state>
           </provider>
@@ -349,7 +351,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -435,7 +437,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -531,11 +533,12 @@
       <workItem from="1549542658697" duration="1129000" />
       <workItem from="1549630163155" duration="1254000" />
       <workItem from="1549637678607" duration="442000" />
+      <workItem from="1549694964707" duration="223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18948000" />
+    <option name="totallyTimeSpent" value="19171000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="1" width="1918" height="1038" extended-state="0" />
@@ -553,7 +556,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.4020385" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.33100107" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.33476856" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -761,7 +764,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot2mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
+        <state relative-caret-position="1159">
           <caret line="61" column="21" selection-start-line="49" selection-start-column="8" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
@@ -769,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/bugManagement/ReadME.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2353" />
+          <first_editor />
           <second_editor />
         </state>
       </provider>

@@ -12,11 +12,23 @@
     </resultMap>
     
 	
-	<select id="findAll" resultMap="userResultMap">
-     SELECT id,name,age,phone,password,flag FROM user order by id desc
+	<select id="findAll" parameterType="com.example.demo.pojo.Page" resultMap="userResultMap">
+     SELECT id,name,age,phone,password,flag FROM user order by id desc limit #{currentPage} , #{pageSize}
 	</select>
 
-    <select id="countAll">
+    <select id="findAllByConditions" parameterType="com.example.demo.pojo.User" resultMap="userResultMap">
+     SELECT id,name,age,phone,password,flag FROM user where name = #{name} and phone = #{phone} order by id desc
+	</select>
+
+
+    <select id="findAllByCondition" parameterType="com.example.demo.pojo.User" resultMap="userResultMap">
+        SELECT id,name,age,phone,password,flag FROM user where 1=1
+             <if test = "name!=null"> and name = #{name} </if>
+              <if test = "phone!=null">and phone = #{phone} </if>
+        order by id desc
+    </select>
+
+    <select id="countAll" resultType="int">
      SELECT count(*) FROM user
 	</select>
 

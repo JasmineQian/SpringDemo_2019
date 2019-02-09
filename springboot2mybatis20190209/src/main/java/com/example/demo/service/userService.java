@@ -1,13 +1,18 @@
 package com.example.demo.service;
 
 import com.example.demo.pojo.User;
-import com.github.pagehelper.PageInfo;
+import com.example.demo.pojo.Page;
+
 
 import java.util.List;
 
 public interface userService {
 
-	List<User> findAll(int currentPage,int pageSize);
+	List<User> findAll(Page page);
+
+	List<User> findAllByConditions(User user);
+
+	List<User> findAllByCondition(User user);
 
 	List<User> selectAll();
 

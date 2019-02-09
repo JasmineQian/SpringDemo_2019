@@ -2,6 +2,7 @@ package com.example.demo.controller;
 
 import com.example.demo.pojo.User;
 import com.example.demo.service.impl.userServiceImp;
+import com.example.demo.pojo.Page;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -22,20 +23,80 @@ public class userController {
 	@Autowired
 	private userServiceImp userService;
 
-    @ApiOperation(value = "显示全部用户的信息倒序")
-    @RequestMapping(value = "userLists", method = RequestMethod.GET)
+    @ApiOperation(value = "显示全部用户的信息且进行分页")
+    @PostMapping(value = "userLists")
 	@ResponseBody
-	public Result showUsers(@RequestParam int currentPage,@RequestParam int pageSize) {
+	public Result showUsers(@RequestBody Page page) {
     	Result result =new Result();
-    	//PageInfo pageInfo =
-        List<User> list=userService.findAll(currentPage,pageSize);
+    	int currentPage = page.getCurrentPage();
+    	int pageSize= page.getPageSize();
+
+    	PageList pageList = new PageList();
+        if(currentPage == 0){currentPage=1;}
+        if(pageSize == 0){pageSize=30;}
+        int TotalRows = userService.countAll();
+
+
+        pageList.setPage(currentPage);
+        pageList.setTotalRows(TotalRows);
+        int pages= 0;
+
+        if(TotalRows % pageSize == 0){ pages = TotalRows / pageSize;}
+        else { pages = TotalRows / pageSize +1 ;}
+        System.out.println("目前分页的总页数是"+pages);
+        pageList.setPages(pages);
+
+        List<User> list=userService.findAll(page);
+        pageList.setList(list);
 		result.setCode("000");
 		result.setMsg("success");
-		result.setData(list);
+		result.setData(pageList);
 		return result;
 	}
 
-    @ApiOperation(value = "显示全部用户的信息倒序")
+
+    @ApiOperation(value = "findAllByCondition")
+    @PostMapping(value = "findAllByCondition")
+    @ResponseBody
+    public Result findAllByCondition(@RequestBody User user) {
+        Result result =new Result();
+        List<User> list= userService.findAllByCondition(user);
+        if(list.size()>0){
+        result.setCode("000");
+        result.setMsg("success");
+        result.setData(list);
+        }
+        else{
+            result.setCode("E01");
+            result.setMsg("chaxunbudao");
+            result.setData(list);
+
+        }
+        return result;
+    }
+
+
+    @ApiOperation(value = "findAllByConditions")
+    @PostMapping(value = "findAllByConditions")
+    @ResponseBody
+    public Result findAllByConditions(@RequestBody User user) {
+        Result result =new Result();
+        List<User> list= userService.findAllByConditions(user);
+        if(list.size()>0){
+            result.setCode("000");
+            result.setMsg("success");
+            result.setData(list);
+        }
+        else{
+            result.setCode("E01");
+            result.setMsg("chaxunbudao");
+            result.setData(list);
+
+        }
+        return result;
+    }
+
+    @ApiOperation(value = "显示全部用户的tiaoshu")
     @RequestMapping(value = "countAll", method = RequestMethod.GET)
     @ResponseBody
     public Result countAll() {

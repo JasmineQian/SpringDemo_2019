@@ -3,10 +3,7 @@ package com.example.demo.service.impl;
 import com.example.demo.mapper.userMapper;
 import com.example.demo.pojo.User;
 import com.example.demo.service.userService;
-import com.example.demo.util.PageBean;
-import com.example.demo.util.TestPage;
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
+import com.example.demo.pojo.Page;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,20 +15,25 @@ public class userServiceImp implements userService {
 	@Autowired
 	private userMapper userMapper;
 
-	public List<User> findAll(int currentPage,int pageSize) {
+	public List<User> findAll(Page page) {
         //设置分页信息，分别是当前页数和每页显示的总记录数【记住：必须在mapper接口中的方法执行之前设置该分页信息】
-        PageHelper.startPage(currentPage, pageSize);
-		List<User> list = userMapper.findAll();//全部商品
-        int countNums = userMapper.countAll(); //总记录数
-        PageBean<User> pageData = new PageBean<>(currentPage, pageSize, countNums);
-        pageData.setItems(list);
-        return pageData.getItems();
-		/*TestPage TestPage = new TestPage();
-		List<User> findAll = userMapper.findAll(TestPage.enablePaging());
-		PageInfo<User> pageInfo = new PageInfo<>(findAll);
-		return pageInfo;
-		*/
+        List<User> list = userMapper.findAll(page);
+        return list;
+
 	}
+
+    @Override
+    public List<User> findAllByConditions(User user) {
+        List<User> list = userMapper.findAllByConditions(user);
+        return list;
+    }
+
+    @Override
+    public List<User> findAllByCondition(User user) {
+        List<User> list = userMapper.findAllByCondition(user);
+        return list;
+    }
+
 
     @Override
 	public List<User> selectAll() {
