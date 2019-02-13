@@ -24,6 +24,7 @@ public class BugRowMapper implements RowMapper<Bug> {
         String tester = resultSet.getString("TESTER");
         String creationdt = resultSet.getString("QA_CREATIONDT");
         String updatedt = resultSet.getString("QA_UPDATEDT");
+        String bugStatus = resultSet.getString("status_des");
 
         Bug bug = new Bug();
         bug.setId(id);
@@ -39,6 +40,7 @@ public class BugRowMapper implements RowMapper<Bug> {
         bug.setTester(tester);
         bug.setCreationdt(creationdt);
         bug.setUpdatedt(updatedt);
+        bug.setBugStatus(bugStatus);
 
         return bug;
 

@@ -120,17 +120,17 @@
                             <th>CR类型</th>
                             <th>测试类型</th>
                             <th>描述</th>
-                            <th>解决方案</th>
-                            <!--<th>根本原因</th>
-                            <th>操作按钮</th>-->
+                            <th>Bug状态</th>
+                            <!--<th>根本原因</th>-->
+                            <th>操作按钮</th>
                         </tr>
                         <tr th:each="bug:${list}">
                             <td th:text="${bug.pname}"></td>
                             <td th:text="${bug.crname}"></td>
                             <td th:text="${bug.oname}"></td>
                             <td th:text="${bug.description}"></td>
-                            <!--   <td th:text="${bug.solution}"></td>
-                               <td th:text="${bug.rca}"></td>-->
+                            <td th:text="${bug.bugStatus}"></td>
+                               <!--<td th:text="${bug.rca}"></td>-->
                             <td>
                                 <a th:href="@{/findByIdpage(BugListId=${bug.id})}" input="button" class="btn btn-info">查看</a>
                                 <a th:href="@{/del(BugListId=${bug.id})}" input="button" class="btn btn-danger"

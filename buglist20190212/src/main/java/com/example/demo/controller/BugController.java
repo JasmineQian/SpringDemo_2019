@@ -11,13 +11,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-/**
- * @apiDefine spring boot demo
- * spring boot demo 接口
- */
-
-
 @Controller
 public class BugController {
 
@@ -39,43 +32,9 @@ public class BugController {
     @Autowired
     private CRService crService;
 
+    @Autowired
+    private BugStatusService bugStatusService;
 
-/*    @RequestMapping("/listpage")
-    public String findAll(Model model,@RequestParam(value="pageon",defaultValue="1")int pageon) {
-        List<Project> projects = projectService.findAll();
-        List<Empoly> testers = empolyService.findTester();
-        List<Empoly> developers = empolyService.findDeveloper();
-        List<TestType> testType = testTypeService.findTestType();
-        List<CR> crtype = crService.findCRType();
-        model.addAttribute("projects", projects);
-        model.addAttribute("testers", testers);
-        model.addAttribute("developers", developers);
-        model.addAttribute("testType", testType);
-        model.addAttribute("crtype", crtype);
-
-        logger.info("查询Buglist信息");
-        Page page =new Page();
-
-        int pagerow=20;
-        List<Bug> list= bugService.findAllbyPage(pageon);
-        int TotalRows = bugService.countAll();
-        System.out.println("目前总共的条数是"+TotalRows);
-        int pages= 0;
-        if(TotalRows % pagerow == 0){ pages = TotalRows / pagerow;}
-        else { pages = TotalRows / pagerow +1 ;}
-        System.out.println("目前分页的总页数是"+pages);
-
-        page.setRowcount(TotalRows);
-        page.setEnd(pages);
-        page.setStart(0);
-        page.setPagecount(pages);
-        page.setPageNumber(pageon);
-        page.setPageon(pageon);
-
-        model.addAttribute("list", list);
-        model.addAttribute("page", page);
-        return "list";
-    }*/
 
     @RequestMapping("/listpage")
     public String findAll(Model model,@RequestParam(value="pageon",defaultValue="1")int pageon,
@@ -83,9 +42,6 @@ public class BugController {
     @RequestParam(value="crid",defaultValue="0")int crid,
     @RequestParam(value="oid",defaultValue="0")int oid) {
 
-        System.out.println("=============pid"+pid);
-        System.out.println("=============pid"+crid);
-        System.out.println("=============pid"+oid);
 
         model.addAttribute("pid", pid);
         model.addAttribute("crid", crid);
@@ -97,9 +53,14 @@ public class BugController {
         List<Empoly> developers = empolyService.findDeveloper();
         List<TestType> testType = testTypeService.findTestType();
         List<CR> crtype = crService.findCRType();
+        List<BugStatus> bugStatuses = bugStatusService.findBugStatus();
+        model.addAttribute("projects", projects);
+        model.addAttribute("testers", testers);
+        model.addAttribute("developers", developers);
+        model.addAttribute("testType", testType);
+        model.addAttribute("crtype", crtype);
+        model.addAttribute("bugStatus", bugStatuses);
 
-
-        logger.info("查询Buglist信息");
         Page page =new Page();
 
         int pagerow=20;
@@ -120,11 +81,6 @@ public class BugController {
 
         model.addAttribute("list", lists);
         model.addAttribute("page", page);
-        model.addAttribute("projects", projects);
-        model.addAttribute("testers", testers);
-        model.addAttribute("developers", developers);
-        model.addAttribute("testType", testType);
-        model.addAttribute("crtype", crtype);
         return "list";
     }
 
@@ -154,7 +110,7 @@ public class BugController {
     @PostMapping("/create")
     public String create(Model model, Bug bug) {
         logger.info("新增bug记录");
-        int result = bugService.create(bug.getPname(),bug.getCrname(),bug.getCrnum(),bug.getTasknum(),bug.getOname(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getDeveloper(),bug.getTester());
+        int result = bugService.create(bug.getPname(),bug.getCrname(),bug.getCrnum(),bug.getTasknum(),bug.getOname(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getDeveloper(),bug.getTester(),bug.getBugStatus());
         if(result == 1) {
             logger.info("新增bug成功！");
             model.addAttribute("message","新增bug成功");
@@ -188,7 +144,8 @@ public class BugController {
     public String update(Model model, @RequestParam("BugListId") int id, @RequestParam("pname") String pname,
                          @RequestParam("crname") String crname, @RequestParam("crnum") String crnum, @RequestParam("tasknum") String tasknum,
                          @RequestParam("oname") String oname, @RequestParam("tester") String tester, @RequestParam("developer") String developer,
-                         @RequestParam("description") String description, @RequestParam("rca") String rca, @RequestParam("solution") String solution) {
+                         @RequestParam("description") String description, @RequestParam("rca") String rca, @RequestParam("solution") String solution,
+                         @RequestParam("bugStatus") String bugStatus) {
         logger.info("转向更新页面,在页面提交之前，并未进行更新");
         model.addAttribute("id", id);
         model.addAttribute("pname", pname);
@@ -201,16 +158,19 @@ public class BugController {
         model.addAttribute("description", description);
         model.addAttribute("rca", rca);
         model.addAttribute("solution", solution);
+        model.addAttribute("bugStatus", bugStatus);
         List<Project> projects = projectService.findAll();
         List<Empoly> testers = empolyService.findTester();
         List<Empoly> developers = empolyService.findDeveloper();
         List<TestType> testType = testTypeService.findTestType();
         List<CR> crtype = crService.findCRType();
+        List<BugStatus> bugStatuses = bugStatusService.findBugStatus();
         model.addAttribute("projects", projects);
         model.addAttribute("testers", testers);
         model.addAttribute("developers", developers);
         model.addAttribute("testType", testType);
         model.addAttribute("crtype", crtype);
+        model.addAttribute("bugStatuslist", bugStatuses);
         return "update";
     }
 
@@ -220,7 +180,7 @@ public class BugController {
     @RequestMapping("/Update")
     public String update(Model model, Bug bug) {
         logger.info("修改用户"+bug);
-        int result = bugService.update(bug.getId(),bug.getPname(),bug.getCrname(),bug.getCrnum(),bug.getOname(),bug.getTasknum(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getDeveloper(),bug.getTester());
+        int result = bugService.update(bug.getId(),bug.getPname(),bug.getCrname(),bug.getCrnum(),bug.getOname(),bug.getTasknum(),bug.getDescription(),bug.getRca(),bug.getSolution(),bug.getDeveloper(),bug.getTester(),bug.getBugStatus());
         if(result == 1) {
             logger.info("修改Bug信息成功！");
             model.addAttribute("message","修改Bug信息成功");

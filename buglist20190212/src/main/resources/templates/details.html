@@ -5,7 +5,7 @@
     <meta charset="UTF-8"/>
     <title>详情页面</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" th:href="@{css/bootstrap.min.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" type="text/css"/>
 </head>
 <body>
 <nav class="navbar navbar-static-top navbar-inverse">
@@ -50,6 +50,10 @@
                                 <td input="text" th:text="${bug.oname}"></td>
                             </tr>
                             <tr>
+                                <td>Bug状态</td>
+                                <td input="text" th:text="${bug.bugStatus}"></td>
+                            </tr>
+                            <tr>
                                 <td>测试人员</td>
                                 <td input="text" th:text="${bug.tester}"></td>
                             </tr>
@@ -78,7 +82,7 @@
                                 <td input="text" th:text="${bug.updatedt}"></td>
                             </tr>
                             <tr>
-                                <td><a th:href = "@{/toUpdate(BugListId=${bug.id},pname=${bug.pname},crname=${bug.crname},crnum=${bug.crnum},tasknum=${bug.tasknum},oname=${bug.oname},tester=${bug.tester},developer=${bug.developer},description=${bug.description},rca=${bug.rca},solution=${bug.solution})}" input="button" class="btn btn-info">信息更新</a></td>
+                                <td><a th:href = "@{/toUpdate(BugListId=${bug.id},pname=${bug.pname},crname=${bug.crname},crnum=${bug.crnum},tasknum=${bug.tasknum},oname=${bug.oname},tester=${bug.tester},developer=${bug.developer},description=${bug.description},rca=${bug.rca},solution=${bug.solution},bugStatus=${bug.bugStatus})}" input="button" class="btn btn-info">信息更新</a></td>
                                 <td> <a th:href="@{/listpage(pageon=1)}" input="button" class="btn btn-info">回到首页</a></td>
                             </tr>
                         </table>

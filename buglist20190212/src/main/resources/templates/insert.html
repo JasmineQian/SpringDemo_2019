@@ -60,6 +60,14 @@
                                         </select></td>
                                 </tr>
                                 <tr>
+                                    <td>bug状态</td>
+                                    <td>
+                                        <select name="bugStatus">
+                                            <option th:each="bugStatus:${bugStatus}" th:value="${bugStatus.bugid}"
+                                                    th:text="${bugStatus.bugStatus}"></option>
+                                        </select></td>
+                                </tr>
+                                <tr>
                                     <td>测试人员</td>
                                     <td><select name="tester">
                                         <option th:each="testers:${testers}" th:value="${testers.eid}"

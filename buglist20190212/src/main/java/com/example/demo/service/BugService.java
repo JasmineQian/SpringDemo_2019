@@ -13,9 +13,9 @@ public interface BugService {
 
     Bug findById(int id);
 
-    int create(String pname, String crname, String crnum, String tasknum, String oname, String description, String rca, String solution, String developer, String tester);
+    int create(String pname, String crname, String crnum, String tasknum, String oname, String description, String rca, String solution, String developer, String tester,String bugStatus);
 
-    int update(long id, String pname, String crname, String crnum, String tasknum, String oname, String description, String rca, String solution, String developer, String tester);
+    int update(long id, String pname, String crname, String crnum, String tasknum, String oname, String description, String rca, String solution, String developer, String tester,String bugStatus);
 
     int deleteByID(int id);
 

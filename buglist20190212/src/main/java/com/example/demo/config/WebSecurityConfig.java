@@ -44,7 +44,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
         //允许访问静态资源
         http.authorizeRequests()
                 .antMatchers("/upload", "/css/**", "/js/**", "/images/**",
-                        "/resources/**", "/lib/**", "/skin/**", "/template/**")
+                        "/resources/**", "/lib/**", "/skin/**", "/template/**","/register")
                 .permitAll();
         //所有的访问都需要权限验证
         http.authorizeRequests().anyRequest().authenticated();
@@ -54,7 +54,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter{
                 //登录信息保存
                         successHandler(loginSuccessHandler()).
                 //访问成功页url
-                        defaultSuccessUrl("/login")
+                        defaultSuccessUrl("/index")
                 //默认访问页
                 .loginPage("/login")
                 .permitAll().and().logout()

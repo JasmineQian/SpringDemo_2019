@@ -15,6 +15,15 @@ public class Bug {
     private String tester;
     private String creationdt;
     private String updatedt;
+    private String bugStatus;
+
+    public String getBugStatus() {
+        return bugStatus;
+    }
+
+    public void setBugStatus(String bugStatus) {
+        this.bugStatus = bugStatus;
+    }
 
     public long getId() {
         return id;

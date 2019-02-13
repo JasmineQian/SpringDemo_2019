@@ -25,7 +25,7 @@ public class UserController {
 
     UserEntity user = new UserEntity();
 
-    @RequestMapping(value={"/login","/"})
+    @RequestMapping(value={"/login"})
     public String login(Model model) {
 
         try {
@@ -43,9 +43,8 @@ public class UserController {
                 }
 
                 //登录成功跳到主页
-                System.out.println("修改Bug信息成功！");
-                model.addAttribute("message","修改Bug信息成功");
-                return "auto";
+                System.out.println("会员登录成功！");
+                return "index";
 
             }
         } catch (Exception e) {

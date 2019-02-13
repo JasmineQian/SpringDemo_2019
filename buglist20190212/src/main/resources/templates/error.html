@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8"/>
-    <title>提示页面</title>
+    <title>抱歉出错了</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}" type="text/css"/>
+    <link rel="stylesheet" th:href="@{css/bootstrap.min.css}" type="text/css"/>
 </head>
 
 <body align="center">
 <div th:insert="~{header :: nav}"></div>
-<a th:text="${message}"></a>
   <h1></h1>
 
-  <h1>页面将在3秒后自动跳转到首页</h1>
-
+  <h1>抱歉出错了</h1>
 <div>
       <a th:href="@{/listpage(pagenum=1)}"><input type="button" value="还剩3秒，点我立即跳转" id="txt"/></a>
 </div>
+
 
 <script>
     window.onload = function () {

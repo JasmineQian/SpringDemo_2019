@@ -72,6 +72,19 @@
 
                                 </tr>
                                 <tr>
+                                    <td>bug类型</td>
+                                    <td>
+
+
+                                        <select name="bugStatus">
+                                            <option th:each="bugStatus:${bugStatuslist}" th:value="${bugStatus.bugid}"
+                                                    th:text="${bugStatus.bugStatus}"
+                                                    th:selected="${bugStatus}==${bugStatus.bugStatus}"></option>
+                                        </select></td>
+
+
+                                </tr>
+                                <tr>
                                     <td>测试人员</td>
                                     <td>
                                         <select name="tester">

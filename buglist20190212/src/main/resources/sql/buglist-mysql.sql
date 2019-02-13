@@ -41,6 +41,8 @@ CREATE TABLE `QA_BUGLIST`(
 PRIMARY KEY (`BUG_ID`)
 )ENGINE=InnoDB AUTO_INCREMENT=300;
 
+alter table qa_buglist add column bug_status_id int default 1 not null 
+
 ALTER TABLE `article`
 ADD CONSTRAINT `fk_1` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`);
 
@@ -67,6 +69,16 @@ SELECT * FROM QA_PROJECT;
 SELECT * FROM QA_CRTYPE;
 SELECT * FROM QA_RTYPE;
 SELECT * FROM QA_EMPLOY;
+
+
+CREATE TABLE `QA_BUGSTATUS` (
+`STATUS_ID` INT NOT NULL AUTO_INCREMENT,
+`STATUS_DES` VARCHAR(100),
+`STATUS_CREATION_DT` DATE,
+`STATUS_UPDATE_DT` DATE,
+`STATUS_DELETED_FLAG` BIT DEFAULT 0,
+PRIMARY KEY (`STATUS_ID`)
+)ENGINE=INNODB AUTO_INCREMENT=1;
 
 
 CREATE TABLE `QA_PROJECT` (
@@ -184,6 +196,38 @@ update qa_project set PROJECT_NAME = '匡威' where project_id =10;
 update qa_project set PROJECT_NAME = '蔻驰' where project_id =11;
 update qa_project set PROJECT_NAME = '美宝莲' where project_id =12;
 update qa_project set PROJECT_NAME = '3ce' where project_id =13;
+
+
+
+
+=========================================
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+-- ----------------------------
+--  Table structure for `user`
+-- ----------------------------
+DROP TABLE IF EXISTS `user`;
+CREATE TABLE `user` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL COMMENT '账号',
+  `password` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL COMMENT '密码',
+  `nickname` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT '' COMMENT '昵称',
+  `roles` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_bin DEFAULT NULL COMMENT '身份',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4;
+
+-- ----------------------------
+--  Records of `user`
+-- ----------------------------
+BEGIN;
+INSERT INTO `user` VALUES ('1', 'anoy', 'pwd', 'anoy', 'ROLE_USER'), ('2', 'admin', 'pwd', 'admin', 'ROLE_USER,ROLE_ADMIN');
+COMMIT;
+
+SET FOREIGN_KEY_CHECKS = 1;
+
+
+update user set password = '$2a$10$A4EZrzoXqj4mVyXiw/fsp.mJ.Ne5aVAMWrMK0mAb2zY7lJ/H6Jryi'
 
 
 

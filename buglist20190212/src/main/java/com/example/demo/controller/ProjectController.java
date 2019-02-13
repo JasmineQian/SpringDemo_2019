@@ -1,13 +1,7 @@
 package com.example.demo.controller;
 
-import com.example.demo.bean.CR;
-import com.example.demo.bean.Empoly;
-import com.example.demo.bean.Project;
-import com.example.demo.bean.TestType;
-import com.example.demo.service.CRService;
-import com.example.demo.service.EmpolyService;
-import com.example.demo.service.ProjectService;
-import com.example.demo.service.TestTypeService;
+import com.example.demo.bean.*;
+import com.example.demo.service.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +28,9 @@ public class ProjectController {
     @Autowired
     private CRService crService;
 
+    @Autowired
+    private BugStatusService bugStatusService;
+
     @RequestMapping("/insert")
     public String insert(Model model) {
         logger.info("转页面");
@@ -42,11 +39,13 @@ public class ProjectController {
         List<Empoly> developers = empolyService.findDeveloper();
         List<TestType> testType = testTypeService.findTestType();
         List<CR> crtype = crService.findCRType();
+        List<BugStatus> bugStatuses = bugStatusService.findBugStatus();
         model.addAttribute("projects", projects);
         model.addAttribute("testers", testers);
         model.addAttribute("developers", developers);
         model.addAttribute("testType", testType);
         model.addAttribute("crtype", crtype);
+        model.addAttribute("bugStatus", bugStatuses);
         return "insert";
     }
 }
