@@ -7,9 +7,9 @@ import java.util.List;
 
 public interface BugService {
 
-    List<Bug> findAllbyPage(int pageon, int pid, int crid, int oid);
+    List<Bug> findAllbyPage(int pageon, int pid,String crnum,String tasknum, int testerid, int devid);
 
-    int countAll(int pid, int crid, int oid);
+    int countAll(int pid,String crnum,String tasknum, int testerid, int devid);
 
     Bug findById(int id);
 

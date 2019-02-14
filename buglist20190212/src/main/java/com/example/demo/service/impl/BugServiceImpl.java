@@ -25,7 +25,7 @@ public class BugServiceImpl implements BugService {
     private JdbcTemplate jdbcTemplate;
 
     @Override
-    public List<Bug> findAllbyPage(int pageon, int pid, int crid, int oid) {
+    public List<Bug> findAllbyPage(int pageon, int pid,String crnum,String tasknum, int testerid, int devid) {
         SearchResult searchResult = new SearchResult();
         int start =(pageon-1)*20;
         String sql = "select bug_id,project_name,cr_name,bug_cr_num,bug_task_num,object_name,bug_description,bug_rca,bug_solution,b.employ_name developer,a.employ_name tester,qa_creationdt,qa_updatedt,bug_deleted_flag,status_des\n" +
@@ -39,9 +39,13 @@ public class BugServiceImpl implements BugService {
                 "where bug_deleted_flag =0";
         List <Object> queryList=new ArrayList<Object>();
         if (pid!=0) { sql += " and BUG_PROJECT_ID = ? "; queryList.add(pid);}
-        if (crid!=0) { sql += " and bug_cr_type_id = ? ";queryList.add(crid);}
-        if (oid!=0) { sql += " and object_id = ?  ";queryList.add(oid);}
+        if (!crnum.equalsIgnoreCase("momo")) { sql += " and bug_cr_num = ? "; queryList.add(crnum);}
+        if (!tasknum.equalsIgnoreCase("momo")) { sql += " and bug_task_num = ? "; queryList.add(tasknum);}
+        if (testerid!=0) { sql += " and qa_tester_id = ? ";queryList.add(testerid);}
+        if (devid!=0) { sql += " and qa_assignee_id = ?  ";queryList.add(devid);}
+
         String sql2 =sql +" order by 1 desc limit "+ start +" , 20";
+        //String sql2 = sql+" order by 1 desc offset  "+ start+  "  rows fetch next  20 rows only";
 
         List<Bug> lists =jdbcTemplate.query(sql2,queryList.toArray(),new BugRowMapper());
         searchResult.getList(lists);
@@ -52,7 +56,21 @@ public class BugServiceImpl implements BugService {
 
 
     @Override
-    public int countAll(int pid, int crid, int oid){
+    public int countAll(int pid,String crnum,String tasknum, int testerid, int devid){
+
+        /*String sql = "select bug_id,project_name,cr_name,bug_cr_num,bug_task_num,object_name,bug_description,bug_rca,bug_solution,b.employ_name developer,a.employ_name tester,qa_creationdt,qa_updatedt,bug_deleted_flag,status_des\n" +
+                "from qa_buglist\n" +
+                "join qa_project on bug_project_id = project_id  \n" +
+                "join qa_crtype on cr_id = bug_cr_type_id  \n" +
+                "join qa_rtype on object_id = qa_type_id  \n" +
+                "join qa_employ a on a.employ_id = qa_tester_id and a.employ_group = 1   \n" +
+                "join qa_employ b on b.employ_id= qa_assignee_id and b.employ_group = 2  \n" +
+                "join qa_bugstatus on status_id =  bug_status_id\n" +
+                "where bug_deleted_flag =0";
+        List <Object> queryList=new ArrayList<Object>();
+        if (pid!=0) { sql += " and BUG_PROJECT_ID = ? "; queryList.add(pid);}
+        if (crid!=0) { sql += " and bug_cr_type_id = ? ";queryList.add(crid);}
+        if (oid!=0) { sql += " and object_id = ?  ";queryList.add(oid);}*/
 
         String sql = "select bug_id,project_name,cr_name,bug_cr_num,bug_task_num,object_name,bug_description,bug_rca,bug_solution,b.employ_name developer,a.employ_name tester,qa_creationdt,qa_updatedt,bug_deleted_flag,status_des\n" +
                 "from qa_buglist\n" +
@@ -65,14 +83,12 @@ public class BugServiceImpl implements BugService {
                 "where bug_deleted_flag =0";
         List <Object> queryList=new ArrayList<Object>();
         if (pid!=0) { sql += " and BUG_PROJECT_ID = ? "; queryList.add(pid);}
-        if (crid!=0) { sql += " and bug_cr_type_id = ? ";queryList.add(crid);}
-        if (oid!=0) { sql += " and object_id = ?  ";queryList.add(oid);}
+        if (!crnum.equalsIgnoreCase("momo")) { sql += " and bug_cr_num = ? "; queryList.add(crnum);}
+        if (!tasknum.equalsIgnoreCase("momo")) { sql += " and bug_task_num = ? "; queryList.add(tasknum);}
+        if (testerid!=0) { sql += " and qa_tester_id = ? ";queryList.add(testerid);}
+        if (devid!=0) { sql += " and qa_assignee_id = ?  ";queryList.add(devid);}
 
         int count =jdbcTemplate.query(sql,queryList.toArray(),new BugRowMapper()).size();
-
-/*        RowCountCallbackHandler countCallback = new RowCountCallbackHandler();
-        jdbcTemplate.query(sql,countCallback);
-        int count = countCallback.getRowCount();*/
         return count;
     }
 

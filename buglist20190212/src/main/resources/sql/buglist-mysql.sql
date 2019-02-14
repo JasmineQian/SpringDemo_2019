@@ -230,6 +230,35 @@ SET FOREIGN_KEY_CHECKS = 1;
 update user set password = '$2a$10$A4EZrzoXqj4mVyXiw/fsp.mJ.Ne5aVAMWrMK0mAb2zY7lJ/H6Jryi'
 
 
+============================================
+
+select  * from qa_bugstatus
+
+status_des
+
+
+select bug_id,project_name,cr_name,bug_cr_num,bug_task_num,object_name,bug_description,bug_rca,bug_solution,b.employ_name developer,a.employ_name tester,qa_creationdt,qa_updatedt,bug_deleted_flag,status_des
+from qa_buglist
+join qa_project on bug_project_id = project_id
+join qa_crtype on cr_id = bug_cr_type_id
+join qa_rtype on object_id = qa_type_id
+join qa_employ a on a.employ_id = qa_tester_id and a.employ_group = 1
+join qa_employ b on b.employ_id= qa_assignee_id and b.employ_group = 2
+join qa_bugstatus on status_id =  bug_status_id
+where bug_deleted_flag =0 and bug_id = ?
+
+
+
+select STATUS_ID,STATUS_DES from qa_bugstatus where STATUS_DELETED_FLAG =0
+
+
+create table qa_user
+select * from  user
+
+
+select * from qa_user
+
+
 
 
 

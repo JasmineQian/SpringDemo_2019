@@ -39,13 +39,23 @@ public class BugController {
     @RequestMapping("/listpage")
     public String findAll(Model model,@RequestParam(value="pageon",defaultValue="1")int pageon,
                           @RequestParam(value="pid",defaultValue="0")int pid,
-    @RequestParam(value="crid",defaultValue="0")int crid,
-    @RequestParam(value="oid",defaultValue="0")int oid) {
+                          @RequestParam(value="crnum",defaultValue="momo")String crnum,
+                          @RequestParam(value="tasknum",defaultValue="momo")String tasknum,
+    @RequestParam(value="testid",defaultValue="0")int testid,
+    @RequestParam(value="devid",defaultValue="0")int devid) {
 
 
         model.addAttribute("pid", pid);
-        model.addAttribute("crid", crid);
-        model.addAttribute("oid", oid);
+        model.addAttribute("crnum", crnum);
+        model.addAttribute("tasknum", tasknum);
+        model.addAttribute("testid", testid);
+        model.addAttribute("devid", devid);
+
+        System.out.println(pid);
+        System.out.println(crnum);
+        System.out.println(tasknum);
+        System.out.println(testid);
+        System.out.println(devid);
 
 
         List<Project> projects = projectService.findAll();
@@ -64,8 +74,8 @@ public class BugController {
         Page page =new Page();
 
         int pagerow=20;
-        List<Bug> lists= bugService.findAllbyPage(pageon,pid,crid,oid);
-        int TotalRows = bugService.countAll(pid,crid,oid);
+        List<Bug> lists= bugService.findAllbyPage(pageon,pid,crnum,tasknum,testid,devid);
+        int TotalRows = bugService.countAll(pid,crnum,tasknum,testid,devid);
         System.out.println("目前总共的条数是"+TotalRows);
         int pages= 0;
         if(TotalRows % pagerow == 0){ pages = TotalRows / pagerow;}

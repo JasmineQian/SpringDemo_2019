@@ -27,14 +27,14 @@ public class UserServiceImpl implements UserService {
         String nickname =userEntity.getNickname();
         String role ="ROLE_USER";
 
-        String sql = "insert into user(username,password,nickname,roles) values(?,?,?,?)";
+        String sql = "insert into qa_user(username,password,nickname,roles) values(?,?,?,?)";
         int count = jdbcTemplate.update(sql,username,pass,nickname,role);
         return count;
     }
 
     @Override
     public UserEntity getByUsername(String username) {
-        String sql ="select * from user where username =? ";
+        String sql ="select * from qa_user where username =? ";
         UserEntity userEntity = jdbcTemplate.queryForObject(sql,new UserRowMapper(),username);
         System.out.println(userEntity);
         return userEntity;

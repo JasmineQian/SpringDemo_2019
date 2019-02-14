@@ -26,7 +26,7 @@
                 <div class="panel-body">
                     <div class="table-responsive">
                         <table border="1" class="table table-striped table-bordered table-hover">
-                            <form th:action="@{/Update}"  method="post">
+                            <form th:action="@{/Update}" method="post">
                                 <input type="hidden" name="id" th:value="${id}"/>
                                 <tr>
                                     <td>项目名称</td>
@@ -52,11 +52,11 @@
                                 </tr>
                                 <tr>
                                     <td>CR号码</td>
-                                    <td><input type="text" name="crnum" th:value="${crnum}"></td>
+                                    <td><input type="text" name="crnum" th:value="${crnum}" autocomplete="off"></td>
                                 </tr>
                                 <tr>
                                     <td>TASK号码</td>
-                                    <td><input type="text" name="tasknum" th:value="${tasknum}"></td>
+                                    <td><input type="text" name="tasknum" th:value="${tasknum}" autocomplete="off"></td>
                                 </tr>
                                 <tr>
                                     <td>测试类型</td>
@@ -109,20 +109,29 @@
 
                                 </tr>
                                 <tr>
-                                    <td>测试用例描述</td>
-                                    <td><input type="text" name="description" th:value="${description}"></td>
+                                    <td>涉及的接口或存储过程名称</td>
+                                    <td><input type="text"  name="description" th:value="${description}"
+                                                     style="margin: 0px; width: 1005px; height: 84px;"/>
+                                    </td>
                                 </tr>
                                 <tr>
-                                    <td>根本原因</td>
-                                    <td><input type="text" name="rca" th:value="${rca}"></td>
+                                    <td>详细描述</td>
+                                    <td><input type="text"  name="rca" th:value="${rca}" style="margin: 0px; width: 1005px;
+                                        height: 84px;"></td>
+                                    <!--    <td><input type="textarea" name="rca" th:value="${rca}"></td>-->
                                 </tr>
                                 <tr>
                                     <td>解决方案</td>
-                                    <td><input type="text" name="solution" th:value="${solution}"/></td>
+                                    <td><input autocomplete="off" type="text"  name="solution" th:value="${solution}"
+                                                     style="margin: 0px; width: 1005px; height: 84px;">
+                                    </td>
+                                    <!--<td><input type=" textarea" name="solution" th:value="${solution}"/></td>
+                                    -->
                                 </tr>
                                 <tr>
-                                    <td><input type="submit" value="确认修改"class="btn btn-info"></td>
-                                    <td><a th:href="@{/listpage(pageon=1)}" input="button" class="btn btn-info">回到首页</a></td>
+                                    <td><input type="submit" value="确认修改" class="btn btn-info"></td>
+                                    <td><a th:href="@{/listpage(pageon=1)}" input="button" class="btn btn-info">回到首页</a>
+                                    </td>
                             </form>
                         </table>
                     </div>
