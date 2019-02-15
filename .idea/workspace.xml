@@ -36,6 +36,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -43,13 +46,21 @@
               <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySpringBootDemos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySpringBootDemos" type="462c0819:PsiDirectoryNode" />
+              <item name="buglist" type="462c0819:PsiDirectoryNode" />
+              <item name="Logs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,11 +145,12 @@
       <workItem from="1549985700850" duration="515000" />
       <workItem from="1550032924002" duration="74000" />
       <workItem from="1550119038223" duration="72000" />
+      <workItem from="1550157089961" duration="168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3057000" />
+    <option name="totallyTimeSpent" value="3225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -153,10 +165,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32963374" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26012793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />

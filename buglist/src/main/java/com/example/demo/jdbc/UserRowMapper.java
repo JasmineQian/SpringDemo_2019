@@ -1,7 +1,7 @@
 package com.example.demo.jdbc;
 
 
-import com.example.demo.entity.UserEntity;
+import com.example.demo.bean.UserEntity;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

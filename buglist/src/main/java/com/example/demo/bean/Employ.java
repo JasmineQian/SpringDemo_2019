@@ -1,16 +1,16 @@
 package com.example.demo.bean;
 
-public class Empoly {
+public class Employ {
 
     private long eid;
     private String ename;
 
-    public Empoly(long eid, String ename) {
+    public Employ(long eid, String ename) {
         this.eid = eid;
         this.ename = ename;
     }
 
-    public Empoly()  {
+    public Employ()  {
         super();
     }
 
@@ -32,7 +32,7 @@ public class Empoly {
 
     @Override
     public String toString() {
-        return "Empoly{" +
+        return "Employ{" +
                 "eid=" + eid +
                 ", ename='" + ename + '\'' +
                 '}';

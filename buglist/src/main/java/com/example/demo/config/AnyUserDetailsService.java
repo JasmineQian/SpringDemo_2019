@@ -1,8 +1,8 @@
 package com.example.demo.config;
 
 
-import com.example.demo.entity.UserEntity;
-import com.example.demo.entity.UserService;
+import com.example.demo.bean.UserEntity;
+import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;

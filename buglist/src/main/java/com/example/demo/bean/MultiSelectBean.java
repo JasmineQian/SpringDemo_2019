@@ -1,11 +1,8 @@
-package com.example.demo.vo;
+package com.example.demo.bean;
 
-public class Select {
+public class MultiSelectBean {
 
     private int pid;
-    /*private int crid;
-    private int oid;*/
-
     private String crnum;
     private String tasknum;
     private int testerid;

@@ -39,8 +39,8 @@ public class BugServiceImpl implements BugService {
                 "where bug_deleted_flag =0";
         List <Object> queryList=new ArrayList<Object>();
         if (pid!=0) { sql += " and BUG_PROJECT_ID = ? "; queryList.add(pid);}
-        if (!crnum.equalsIgnoreCase("momo")) { sql += " and bug_cr_num = ? "; queryList.add(crnum);}
-        if (!tasknum.equalsIgnoreCase("momo")) { sql += " and bug_task_num = ? "; queryList.add(tasknum);}
+        if (!crnum.equalsIgnoreCase("momo")) { sql += " and bug_cr_num like ? "; queryList.add("%"+crnum+"%");}
+        if (!tasknum.equalsIgnoreCase("momo")) { sql += " and bug_task_num  like ? "; queryList.add("%"+tasknum+"%");}
         if (testerid!=0) { sql += " and qa_tester_id = ? ";queryList.add(testerid);}
         if (devid!=0) { sql += " and qa_assignee_id = ?  ";queryList.add(devid);}
 
@@ -112,7 +112,7 @@ public class BugServiceImpl implements BugService {
         DateFormat bf = DateFormat.getDateTimeInstance();
         String date =bf.format(dt);
         String sql = "update QA_BUGLIST set BUG_PROJECT_ID = ?,BUG_CR_TYPE_ID=?, BUG_CR_NUM =?, QA_TYPE_ID =?,BUG_TASK_NUM =?,BUG_DESCRIPTION=?,BUG_RCA=?,BUG_SOLUTION= ?,QA_ASSIGNEE_ID = ? ,QA_TESTER_ID =? ,QA_UPDATEDT =? ,Bug_status_id = ? where BUG_ID = ?";
-        System.out.println("sql:"+sql);
+/*        System.out.println("sql:"+sql);
         System.out.println(pname);
         System.out.println(crname);
         System.out.println(crnum);
@@ -125,7 +125,7 @@ public class BugServiceImpl implements BugService {
         System.out.println(tester);
         System.out.println(date);
         System.out.println(bugStatus);
-        System.out.println(id);
+        System.out.println(id);*/
         return jdbcTemplate.update(sql,pname,crname,crnum,oname,tasknum,description,rca,solution,developer,tester,date,bugStatus,id);
     }
 

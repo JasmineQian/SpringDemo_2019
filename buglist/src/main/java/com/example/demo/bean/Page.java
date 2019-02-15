@@ -1,4 +1,4 @@
-package com.example.demo.controller;
+package com.example.demo.bean;
 
 import java.io.Serializable;
 

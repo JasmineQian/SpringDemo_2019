@@ -1,7 +1,7 @@
 package com.example.demo.config;
 
 
-import com.example.demo.entity.UserEntity;
+import com.example.demo.bean.UserEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.SavedRequestAwareAuthenticationSuccessHandler;
 

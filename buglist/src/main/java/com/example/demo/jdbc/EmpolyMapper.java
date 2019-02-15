@@ -1,23 +1,23 @@
 package com.example.demo.jdbc;
 
-import com.example.demo.bean.Empoly;
+import com.example.demo.bean.Employ;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class EmpolyMapper implements RowMapper<Empoly> {
+public class EmpolyMapper implements RowMapper<Employ> {
 
 
     @Override
-    public Empoly mapRow(ResultSet resultSet, int i) throws SQLException {
+    public Employ mapRow(ResultSet resultSet, int i) throws SQLException {
         //此处要使用表中的字段，不能使用属性
         long eid = resultSet.getInt(1);
         String ename = resultSet.getString(2);
 
-        Empoly empoly = new Empoly();
-        empoly.setEid(eid);
-        empoly.setEname(ename);
-        return empoly;
+        Employ employ = new Employ();
+        employ.setEid(eid);
+        employ.setEname(ename);
+        return employ;
     }
 }

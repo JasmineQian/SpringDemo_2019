@@ -1,7 +1,7 @@
 package com.example.demo.controller;
 
-import com.example.demo.entity.UserEntity;
-import com.example.demo.entity.UserServiceImpl;
+import com.example.demo.bean.UserEntity;
+import com.example.demo.service.impl.UserServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AnonymousAuthenticationToken;
 import org.springframework.security.core.Authentication;

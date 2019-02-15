@@ -1,8 +1,9 @@
-package com.example.demo.entity;
+package com.example.demo.service.impl;
 
 
-import com.example.demo.constant.RoleConstant;
+import com.example.demo.bean.UserEntity;
 import com.example.demo.jdbc.UserRowMapper;
+import com.example.demo.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Primary;
 import org.springframework.jdbc.core.JdbcTemplate;

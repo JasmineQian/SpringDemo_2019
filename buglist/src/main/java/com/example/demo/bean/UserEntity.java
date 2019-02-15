@@ -1,28 +1,13 @@
-package com.example.demo.entity;
+package com.example.demo.bean;
 
 
 public class UserEntity {
 
     private Long id;
-
-    /**
-     * 账号
-     */
     private String username;
-
-    /**
-     * 密码
-     */
     private String password;
-
-    /**
-     * 昵称
-     */
     private String nickname;
 
-    /**
-     * 权限
-     */
     private String roles;
 
     public Long getId() {

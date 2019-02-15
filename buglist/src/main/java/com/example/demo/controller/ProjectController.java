@@ -20,7 +20,7 @@ public class ProjectController {
     private ProjectService projectService;
 
     @Autowired
-    private EmpolyService empolyService;
+    private EmployService employService;
 
     @Autowired
     private TestTypeService testTypeService;
@@ -35,8 +35,8 @@ public class ProjectController {
     public String insert(Model model) {
         logger.info("转页面");
         List<Project> projects = projectService.findAll();
-        List<Empoly> testers = empolyService.findTester();
-        List<Empoly> developers = empolyService.findDeveloper();
+        List<Employ> testers = employService.findTester();
+        List<Employ> developers = employService.findDeveloper();
         List<TestType> testType = testTypeService.findTestType();
         List<CR> crtype = crService.findCRType();
         List<BugStatus> bugStatuses = bugStatusService.findBugStatus();
