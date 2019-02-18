@@ -2,9 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7f9ca71-43b5-4be4-898b-689b1a60581a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay02" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay02" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringDemoDay05" beforeDir="false" afterPath="$PROJECT_DIR$/SpringDemoDay05" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Springboot_freemaker_ftl" beforeDir="false" afterPath="$PROJECT_DIR$/Springboot_freemaker_ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/Logs/spring.log" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/Logs/spring.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/bean/Empoly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/config/AnyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/config/AnyUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/config/LoginSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/config/LoginSuccessHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/BugController.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/BugController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/entity/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/entity/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/entity/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/jdbc/EmpolyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/jdbc/EmpolyMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/jdbc/UserRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/jdbc/UserRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/service/EmpolyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/service/impl/BugServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/service/impl/BugServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/service/impl/EmpolyServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/java/com/example/demo/vo/Select.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/resources/static/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/resources/static/css/bootstrap.min01.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/resources/templates/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/resources/templates/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/resources/templates/insert.html" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/resources/templates/insert.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/main/resources/templates/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/main/resources/templates/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buglist/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/buglist/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,9 +64,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,11 +174,12 @@
       <workItem from="1550032924002" duration="74000" />
       <workItem from="1550119038223" duration="72000" />
       <workItem from="1550157089961" duration="168000" />
+      <workItem from="1550225669997" duration="42000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3225000" />
+    <option name="totallyTimeSpent" value="3267000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -165,10 +194,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32963374" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32963374" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
