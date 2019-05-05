@@ -1,0 +1,492 @@
+20190504 11:28:36 === [main] === INFO  === com.example.demo.DemoApplication === - Starting DemoApplication on jasqia7490 with PID 12548 (D:\000_Mark\MySpringBootDemos\demo4Swagger2\target\classes started by jasqia in D:\000_Mark\MySpringBootDemos\demo4Swagger2)
+20190504 11:28:36 === [main] === INFO  === com.example.demo.DemoApplication === - No active profile set, falling back to default profiles: default
+20190504 11:28:38 === [main] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c4880b8b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190504 11:28:38 === [main] === INFO  === o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker === - Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$440858bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+20190504 11:28:38 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === - Tomcat initialized with port(s): 8083 (http)
+20190504 11:28:38 === [main] === INFO  === org.apache.catalina.core.StandardService === - Starting service [Tomcat]
+20190504 11:28:38 === [main] === INFO  === org.apache.catalina.core.StandardEngine === - Starting Servlet engine: [Apache Tomcat/9.0.16]
+20190504 11:28:38 === [main] === INFO  === org.apache.catalina.core.AprLifecycleListener === - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files\Git\cmd;D:\00G_maven-3.6.1\bin;C:\Users\jasqia\AppData\Local\Microsoft\WindowsApps;;.]
+20190504 11:28:38 === [main] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === - Initializing Spring embedded WebApplicationContext
+20190504 11:28:38 === [main] === INFO  === org.springframework.web.context.ContextLoader === - Root WebApplicationContext: initialization completed in 1921 ms
+20190504 11:28:39 === [main] === INFO  === o.s.scheduling.concurrent.ThreadPoolTaskExecutor === - Initializing ExecutorService 'applicationTaskExecutor'
+20190504 11:28:39 === [main] === WARN  === o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration === - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+20190504 11:28:39 === [main] === INFO  === o.s.b.a.s.s.UserDetailsServiceAutoConfiguration === - 
+
+Using generated security password: b593ad53-1d8e-4d1a-a0b8-d2c326df8720
+
+20190504 11:28:40 === [main] === INFO  === o.s.security.web.DefaultSecurityFilterChain === - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c2924d7, org.springframework.security.web.context.SecurityContextPersistenceFilter@2c413ffc, org.springframework.security.web.header.HeaderWriterFilter@2f74900b, org.springframework.security.web.csrf.CsrfFilter@6a916402, org.springframework.security.web.authentication.logout.LogoutFilter@3664f108, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@76e9f00b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2c2a027c, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@b5de58f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5de5e95, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6cd98a05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7be2f29a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6587305a, org.springframework.security.web.session.SessionManagementFilter@2e26173, org.springframework.security.web.access.ExceptionTranslationFilter@40d60f2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@594d9f07]
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.plugins.DocumentationPluginsBootstrapper === - Context refreshed
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.plugins.DocumentationPluginsBootstrapper === - Found {0} custom documentation plugin(s)
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Scanning for api listing references
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method root was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: root belongs to groups: [[ResourceGroup{groupName='home-controller', position=0, controller=com.example.demo.controller.HomeController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method accesssDenied was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: accesssDenied belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.demo.controller.UserController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method SearchCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: SearchCaseById belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method TaskCreation was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: TaskCreation belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=com.example.demo.controller.TaskController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=com.example.demo.controller.TaskController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method TaskUpdate was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: TaskUpdate belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=com.example.demo.controller.TaskController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method UpdateCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: UpdateCaseById belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: update belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.example.demo.controller.BugController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method casegenerate was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: casegenerate belongs to groups: [[ResourceGroup{groupName='home-controller', position=0, controller=com.example.demo.controller.HomeController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method casetoUpdate was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: casetoUpdate belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method create was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: create belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.example.demo.controller.BugController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method delCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: delCaseById belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method delTaskbyID was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: delTaskbyID belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=com.example.demo.controller.TaskController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method del was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: del belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.example.demo.controller.BugController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: excelExport belongs to groups: [[ResourceGroup{groupName='excel-controller', position=0, controller=com.example.demo.controller.ExcelController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: findAllTask belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=com.example.demo.controller.TaskController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: findByIdpage belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.example.demo.controller.BugController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: findCaseById belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: findCaseByTaskId belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: findTaskById belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=com.example.demo.controller.TaskController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insertCasePage was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: insertCasePage belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insertCase was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: insertCase belongs to groups: [[ResourceGroup{groupName='case-controller', position=0, controller=com.example.demo.controller.CaseController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: insert belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.example.demo.controller.BugController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: findAll belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.example.demo.controller.BugController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: login belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.demo.controller.UserController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method register was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: register belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.demo.controller.UserController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method doRegister was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: doRegister belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.demo.controller.UserController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method tasktoUpdate was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: tasktoUpdate belongs to groups: [[ResourceGroup{groupName='task-controller', position=0, controller=com.example.demo.controller.TaskController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: toupdate belongs to groups: [[ResourceGroup{groupName='bug-controller', position=0, controller=com.example.demo.controller.BugController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method user was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Request mapping: user belongs to groups: [[ResourceGroup{groupName='user-controller', position=0, controller=com.example.demo.controller.UserController}]] 
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Created resource listing Path: /default/bug-controller Description: bug-controller Position: 0
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Created resource listing Path: /default/task-controller Description: task-controller Position: 0
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Created resource listing Path: /default/case-controller Description: case-controller Position: 0
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Created resource listing Path: /default/excel-controller Description: excel-controller Position: 0
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Created resource listing Path: /default/home-controller Description: home-controller Position: 0
+20190504 11:28:40 === [main] === INFO  === s.d.spring.web.scanners.ApiListingReferenceScanner === - Created resource listing Path: /default/user-controller Description: user-controller Position: 0
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /create.com.example.demo.controller.BugController.create.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /create.com.example.demo.controller.BugController.create.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method create was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method create was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /del.com.example.demo.controller.BugController.del.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /del.com.example.demo.controller.BugController.del.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method del was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method del was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /listpage.com.example.demo.controller.BugController.findAll.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /listpage.com.example.demo.controller.BugController.findAll.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAll was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /findByIdpage.com.example.demo.controller.BugController.findByIdpage.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /findByIdpage.com.example.demo.controller.BugController.findByIdpage.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findByIdpage was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /insert.com.example.demo.controller.BugController.insert.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /insert.com.example.demo.controller.BugController.insert.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /toUpdate.com.example.demo.controller.BugController.toupdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /toUpdate.com.example.demo.controller.BugController.toupdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method toupdate was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /Update.com.example.demo.controller.BugController.update.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /Update.com.example.demo.controller.BugController.update.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method update was bug-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /SearchCaseById.com.example.demo.controller.CaseController.SearchCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /SearchCaseById.com.example.demo.controller.CaseController.SearchCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method SearchCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method SearchCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /UpdateCaseById.com.example.demo.controller.CaseController.UpdateCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /UpdateCaseById.com.example.demo.controller.CaseController.UpdateCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method UpdateCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method UpdateCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /casetoUpdate.com.example.demo.controller.CaseController.casetoUpdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /casetoUpdate.com.example.demo.controller.CaseController.casetoUpdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method casetoUpdate was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method casetoUpdate was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /delCaseById.com.example.demo.controller.CaseController.delCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /delCaseById.com.example.demo.controller.CaseController.delCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method delCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method delCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /findCaseById.com.example.demo.controller.CaseController.findCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /findCaseById.com.example.demo.controller.CaseController.findCaseById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseById was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /findCaseByTaskId.com.example.demo.controller.CaseController.findCaseByTaskId.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /findCaseByTaskId.com.example.demo.controller.CaseController.findCaseByTaskId.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findCaseByTaskId was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /insertCase.com.example.demo.controller.CaseController.insertCase.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /insertCase.com.example.demo.controller.CaseController.insertCase.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insertCase was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insertCase was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /insertCasePage.com.example.demo.controller.CaseController.insertCasePage.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /insertCasePage.com.example.demo.controller.CaseController.insertCasePage.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insertCasePage was case-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insertCasePage was case-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.Void(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.Void(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.Void(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.Void(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /excelExport.com.example.demo.controller.ExcelController.excelExport.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /excelExport.com.example.demo.controller.ExcelController.excelExport.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method excelExport was excel-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /casegenerate.com.example.demo.controller.HomeController.casegenerate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /casegenerate.com.example.demo.controller.HomeController.casegenerate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method casegenerate was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method casegenerate was home-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /.com.example.demo.controller.HomeController.root.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /.com.example.demo.controller.HomeController.root.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method root was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method root was home-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /home.com.example.demo.controller.HomeController.root.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /home.com.example.demo.controller.HomeController.root.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method root was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method root was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.w.r.operation.CachingOperationNameGenerator === - Generating unique operation named: rootUsingGET_1
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /index.com.example.demo.controller.HomeController.root.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /index.com.example.demo.controller.HomeController.root.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method root was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method root was home-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.w.r.operation.CachingOperationNameGenerator === - Generating unique operation named: rootUsingGET_2
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /TaskCreation.com.example.demo.controller.TaskController.TaskCreation.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /TaskCreation.com.example.demo.controller.TaskController.TaskCreation.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method TaskCreation was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method TaskCreation was task-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /TaskUpdate.com.example.demo.controller.TaskController.TaskUpdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /TaskUpdate.com.example.demo.controller.TaskController.TaskUpdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method TaskUpdate was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method TaskUpdate was task-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /delTaskbyID.com.example.demo.controller.TaskController.delTaskbyID.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /delTaskbyID.com.example.demo.controller.TaskController.delTaskbyID.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method delTaskbyID was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method delTaskbyID was task-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /findAllTask.com.example.demo.controller.TaskController.findAllTask.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /findAllTask.com.example.demo.controller.TaskController.findAllTask.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findAllTask was task-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /findTaskById.com.example.demo.controller.TaskController.findTaskById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /findTaskById.com.example.demo.controller.TaskController.findTaskById.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method findTaskById was task-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /TaskInsert.com.example.demo.controller.TaskController.insert.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /TaskInsert.com.example.demo.controller.TaskController.insert.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method insert was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.w.r.operation.CachingOperationNameGenerator === - Generating unique operation named: insertUsingGET_1
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /tasktoUpdate.com.example.demo.controller.TaskController.tasktoUpdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /tasktoUpdate.com.example.demo.controller.TaskController.tasktoUpdate.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method tasktoUpdate was task-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method tasktoUpdate was task-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.d.schema.property.ModelPropertiesKeyGenerator === - Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.d.schema.property.ModelPropertiesKeyGenerator === - Cache key generated: org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.ModelAndView(true)
+20190504 11:28:40 === [main] === INFO  === s.d.schema.property.ModelPropertiesKeyGenerator === - Cache key generated: org.springframework.web.servlet.View(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+20190504 11:28:40 === [main] === INFO  === s.d.schema.property.ModelPropertiesKeyGenerator === - Cache key generated: org.springframework.web.servlet.View(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelProperties with key org.springframework.web.servlet.View(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /403.com.example.demo.controller.UserController.accesssDenied.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /403.com.example.demo.controller.UserController.accesssDenied.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method accesssDenied was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method accesssDenied was user-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /register.com.example.demo.controller.UserController.doRegister.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /register.com.example.demo.controller.UserController.doRegister.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method doRegister was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method doRegister was user-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /login.com.example.demo.controller.UserController.login.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /login.com.example.demo.controller.UserController.login.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method login was user-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /register.com.example.demo.controller.UserController.register.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /register.com.example.demo.controller.UserController.register.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method register was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method register was user-controller
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache models with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.schema.ModelContextKeyGenerator === - Cache Key Generated: java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache modelDependencies with key java.lang.String(true)
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.OperationsKeyGenerator === - Cache key generated: /user.com.example.demo.controller.UserController.user.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.documentation.spring.web.caching.CachingAspect === - Caching aspect applied for cache operations with key /user.com.example.demo.controller.UserController.user.DefaultGenericTypeNamingStrategy
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method user was user-controller
+20190504 11:28:40 === [main] === INFO  === s.d.s.web.ClassOrApiAnnotationResourceGrouping === - Group for method user was user-controller
+20190504 11:28:40 === [main] === INFO  === o.s.boot.web.embedded.tomcat.TomcatWebServer === - Tomcat started on port(s): 8083 (http) with context path ''
+20190504 11:28:40 === [main] === INFO  === com.example.demo.DemoApplication === - Started DemoApplication in 4.201 seconds (JVM running for 4.946)
+20190504 11:29:10 === [http-nio-8083-exec-1] === INFO  === org.apache.tomcat.util.http.parser.Cookie === - A cookie header was received [1549980281; ACEGI_SECURITY_HASHED_REMEMBER_ME_COOKIE=YWRtaW46MTU1NzM5NDIyMzczNzpiNGJmODkwOTExMDYxYTYwMDMxYmM5NTZkZmJmNDFiOTdkYzQ5ZDQ3YTY5NTcyZjJlM2E1ZjYzOWRlNWU5OGU2; jenkins-timestamper-offset=-28800000] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+20190504 11:29:10 === [http-nio-8083-exec-1] === INFO  === o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] === - Initializing Spring DispatcherServlet 'dispatcherServlet'
+20190504 11:29:10 === [http-nio-8083-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === - Initializing Servlet 'dispatcherServlet'
+20190504 11:29:10 === [http-nio-8083-exec-1] === INFO  === org.springframework.web.servlet.DispatcherServlet === - Completed initialization in 8 ms
