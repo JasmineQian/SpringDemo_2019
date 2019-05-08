@@ -1,8 +1,5 @@
 package com.example.demo.bean.dto;
 
-import io.swagger.annotations.ApiModel;
-
-@ApiModel(value="任务的实体类",description = "这是任务Task对象")
 public class Task {
 
     private int taskid;
@@ -11,12 +8,14 @@ public class Task {
     private int task_tid;
     private String task_tname;
     private String taskname;
-    private String crname;
+    private String crnum;
     private String description;
     private String details;
     private String note;
     private String creationdt;
     private String updatedt;
+    private String creationuid;
+    private String updateuid;
 
     public int getTaskid() {
         return taskid;
@@ -66,12 +65,12 @@ public class Task {
         this.taskname = taskname;
     }
 
-    public String getCrname() {
-        return crname;
+    public String getCrnum() {
+        return crnum;
     }
 
-    public void setCrname(String crname) {
-        this.crname = crname;
+    public void setCrnum(String crnum) {
+        this.crnum = crnum;
     }
 
     public String getDescription() {
@@ -114,21 +113,19 @@ public class Task {
         this.updatedt = updatedt;
     }
 
-    @Override
-    public String toString() {
-        return "Task{" +
-                "taskid=" + taskid +
-                ", task_pid=" + task_pid +
-                ", task_project='" + task_project + '\'' +
-                ", task_tid=" + task_tid +
-                ", task_tname='" + task_tname + '\'' +
-                ", taskname='" + taskname + '\'' +
-                ", crname='" + crname + '\'' +
-                ", description='" + description + '\'' +
-                ", details='" + details + '\'' +
-                ", note='" + note + '\'' +
-                ", creationdt='" + creationdt + '\'' +
-                ", updatedt='" + updatedt + '\'' +
-                '}';
+    public String getCreationuid() {
+        return creationuid;
+    }
+
+    public void setCreationuid(String creationuid) {
+        this.creationuid = creationuid;
+    }
+
+    public String getUpdateuid() {
+        return updateuid;
+    }
+
+    public void setUpdateuid(String updateuid) {
+        this.updateuid = updateuid;
     }
 }

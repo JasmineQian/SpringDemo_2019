@@ -2,7 +2,8 @@ package com.example.demo.controller;
 
 import com.example.demo.bean.dto.BugInsertRequest;
 import com.example.demo.bean.dto.BugRequest;
-import com.example.demo.common.Response;
+import com.example.demo.bean.dto.BugSearchRequest;
+import com.example.demo.bean.po.Response;
 import com.example.demo.service.BugService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -27,9 +28,18 @@ public class BugController {
 
 
     @ApiOperation(value = "展示bug列表请求接口", notes = "展示bug列表请求接口")
-    @GetMapping(value="/showbugs")
+    @GetMapping(value="/showallbugs")
     public Response findAll() {
         Response response = bugService.getBugs();
+        return response;
+    }
+
+
+    @ApiOperation(value = "根据条件查询Bug且进行分页", notes = "根据条件查询Bug且进行分页")
+    @ApiImplicitParam(dataType = "BugSearchRequest", name = "bugSearchRequest", value = "根据条件查询Bug且进行分页", required = true)
+    @PostMapping(value="/showbugs")
+    public Response findBugsByConditions(@RequestBody BugSearchRequest bugSearchRequest) {
+        Response response = bugService.getBugsByPageByConditions(bugSearchRequest);
         return response;
     }
 

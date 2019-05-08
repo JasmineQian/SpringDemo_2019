@@ -28,42 +28,29 @@
 </select>
 
 
-    <select id="getBugsByPage" parameterType="com.example.demo.common.Page" resultMap="BugResult">
+    <select id="getBugsByPage" parameterType="com.example.demo.bean.po.Page" resultMap="BugResult">
           SELECT BUG_ID,BUG_DESCRIPTION,BUG_RCA,BUG_SOLUTION,BUG_CREATIONDT,BUG_UPDATEDT,
           BUG_CREATIONUID,BUG_UPDATEUID
-          FROM BBUG order by id desc limit #{starter} , #{pageSize}
+          FROM BBUG order by BUG_ID desc limit #{starter}, #{pageSize}
 </select>
 
-    <select id="findAllByCondition" parameterType="com.example.demo.bean.dto.Bug" resultMap="userResultMap">
-        SELECT id,name,age,phone,password,flag FROM user where 1=1
-        <if test = "name!=null"> and name = #{name} </if>
-        <if test = "phone!=null">and phone = #{phone} </if>
-        order by id desc
-    </select>
 
-    <select id="getBugsByPageByConditions" parameterType="com.example.demo.bean.dto.Bug" resultMap="userResultMap">
-        SELECT id,name,age,phone,password,flag FROM user where 1=1
-        <if test = "name!=null"> and name = #{name} </if>
-        <if test = "phone!=null">and phone = #{phone} </if>
-        order by id desc desc limit #{starter} , #{pageSize}
+    <select id="getBugsByPageByConditions" parameterType="com.example.demo.bean.dto.BugSearchRequest" resultMap="BugResult">
+        SELECT BUG_ID,BUG_DESCRIPTION,BUG_RCA,BUG_SOLUTION,BUG_CREATIONDT,BUG_UPDATEDT,
+        BUG_CREATIONUID,BUG_UPDATEUID FROM BBUG where 1=1
+        <if test = "pname!= null"> and BUG_PROJECT_ID = #{pname} </if>
+        <if test = "crnum!= null">and BUG_CR_NUM = #{crnum} </if>
+        <if test = "tasknum!=null">and BUG_TASK_NUM = #{tasknum} </if>
+        <if test = "developer!=null">and BUG_ASSIGNEE_ID = #{developer} </if>
+        <if test = "tester!= null">and BUG_TESTER_ID = #{tester} </if>
+        order by BUG_ID desc limit #{starter}, #{pageSize}
     </select>
 
     <select id="countAll" resultType="int">
-     SELECT count(*) FROM user
+     SELECT count(*) FROM BBUG where BUG_DELETED_FLAG=0
 	</select>
 
     <insert id="insert" parameterType="com.example.demo.bean.dto.Bug">
-        INSERT INTO BBUG
-(BUG_PROJECT_ID,BUG_CR_TYPE_ID,BUG_CR_NUM,BUG_TASK_NUM,BUG_TYPE_ID,
-BUG_DESCRIPTION,BUG_RCA,BUG_SOLUTION,BUG_ASSIGNEE_ID,BUG_TESTER_ID,
-BUG_CREATIONDT,BUG_UPDATEDT,BUG_STATUS_ID,BUG_CREATIONUID,BUG_UPDATEUID)
-VALUES (4, 2, #{crnum,jdbcType=LONGVARCHAR}, #{tasknum,jdbcType=LONGVARCHAR}, 4,
- #{description,jdbcType=LONGVARCHAR},  #{rca,jdbcType=LONGVARCHAR},  #{solution,jdbcType=LONGVARCHAR}, 3, 8,
-#{creationdt,jdbcType=LONGVARCHAR}, #{updatedt,jdbcType=LONGVARCHAR}, 1,#{creationuid,jdbcType=LONGVARCHAR},#{updateuid,jdbcType=LONGVARCHAR});
-    </insert>
-
-
-    <insert id="update" parameterType="com.example.demo.bean.dto.Bug">
         INSERT INTO BBUG
 (BUG_PROJECT_ID,BUG_CR_TYPE_ID,BUG_CR_NUM,BUG_TASK_NUM,BUG_TYPE_ID,
 BUG_DESCRIPTION,BUG_RCA,BUG_SOLUTION,BUG_ASSIGNEE_ID,BUG_TESTER_ID,

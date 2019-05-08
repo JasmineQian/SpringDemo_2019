@@ -1,7 +1,8 @@
 package com.example.demo.mapper;
 
 import com.example.demo.bean.dto.Bug;
-import com.example.demo.common.Page;
+import com.example.demo.bean.dto.BugSearchRequest;
+import com.example.demo.bean.po.Page;
 
 import java.util.List;
 public interface BugMapper {
@@ -10,7 +11,7 @@ public interface BugMapper {
 
     List<Bug> getBugsByPage(Page page);
 
-    List<Bug> getBugsByPageByConditions(Bug record,Page page);
+    List<Bug> getBugsByPageByConditions(BugSearchRequest record);
 
     Bug getBugByid(Integer id);
 

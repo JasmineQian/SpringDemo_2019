@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.TaskMapper">
+
+
+    <resultMap id="TaskResult" type="com.example.demo.bean.dto.Task">
+        <result property="taskid" column="TASK_ID"/>
+        <result property="task_pid" column="TASK_PID"/>
+        <result property="task_project" column="PROJECT_NAME"/>
+        <result property="task_tid" column="TASK_TID"/>
+        <result property="task_tname" column="TASK_NAME"/>
+        <result property="crnum" column="TASK_CRNUM"/>
+        <result property="description" column="TASK_DESCRIPTION"/>
+        <result property="details" column="TASK_DETAILS"/>
+        <result property="note" column="TASK_NOTE"/>
+        <result property="creationdt" column="TASK_CREATIONDT"/>
+        <result property="updatedt" column="TASK_UPDATEDT"/>
+        <result property="creationuid" column="TASK_CREATIONUID"/>
+        <result property="updateuid" column="TASK_UPDATEUID"/>
+    </resultMap>
+
+
+    <select id="getTaskByid" resultMap="TaskResult">
+SELECT TASK_ID,TASK_PID,PROJECT_NAME,TASK_TID,TASK_NAME,TASK_CRNUM,TASK_DESCRIPTION,TASK_DETAILS,TASK_NOTE,
+TASK_CREATIONDT,TASK_UPDATEDT, TASK_CREATIONUID,TASK_UPDATEUID
+FROM BTASK JOIN RPROJECT ON TASK_PID =PROJECT_ID  WHERE TASK_ID =#{ID} AND TASK_DELETED_FLAG=0
+ </select>
+
+
+    <select id="getTasks" resultMap="TaskResult">
+SELECT TASK_ID,TASK_PID,PROJECT_NAME,TASK_TID,TASK_NAME,TASK_CRNUM,TASK_DESCRIPTION,TASK_DETAILS,TASK_NOTE,
+TASK_CREATIONDT,TASK_UPDATEDT, TASK_CREATIONUID,TASK_UPDATEUID
+FROM BTASK JOIN RPROJECT ON TASK_PID =PROJECT_ID
+</select>
+
+
+    <select id="getTasksByPage" parameterType="com.example.demo.bean.po.Page" resultMap="TaskResult">
+SELECT TASK_ID,TASK_PID,PROJECT_NAME,TASK_TID,TASK_NAME,TASK_CRNUM,TASK_DESCRIPTION,TASK_DETAILS,TASK_NOTE,
+TASK_CREATIONDT,TASK_UPDATEDT, TASK_CREATIONUID,TASK_UPDATEUID
+FROM BTASK JOIN RPROJECT ON TASK_PID =PROJECT_ID order by TASK_ID desc limit #{starter}, #{pageSize}
+</select>
+
+
+    <select id="getTasksByPageByConditions" parameterType="com.example.demo.bean.dto.TaskSearchRequest"
+            resultMap="TaskResult">
+        SELECT TASK_ID,TASK_PID,PROJECT_NAME,TASK_TID,TASK_NAME,TASK_CRNUM,TASK_DESCRIPTION,TASK_DETAILS,TASK_NOTE,
+        TASK_CREATIONDT,TASK_UPDATEDT, TASK_CREATIONUID,TASK_UPDATEUID
+        FROM BTASK JOIN RPROJECT ON TASK_PID =PROJECT_ID WHERE 1=1 and TASK_DELETED_FLAG=0
+        <if test="pname!= null">and TASK_PID = #{pname}</if>
+        <if test="crnum!= null">and TASK_CRNAME = #{crnum}</if>
+        <if test="taskname!=null">and TASK_NAME = #{taskname}</if>
+        order by TASK_ID desc limit #{starter}, #{pageSize}
+    </select>
+
+    <select id="countAll" resultType="int">
+     SELECT count(*) FROM BTASK where TASK_DELETED_FLAG=0
+	</select>
+
+    <insert id="insert" parameterType="com.example.demo.bean.dto.Task">
+
+INSERT into BTASK(
+TASK_PID,TASK_TID,TASK_NAME,TASK_CRNUM,
+TASK_DESCRIPTION,TASK_DETAILS,TASK_NOTE,
+TASK_CREATIONDT,TASK_UPDATEDT,TASK_CREATIONUID,TASK_UPDATEUID)
+VALUES(1,1,#{taskname},#{crnum},
+#{description},#{details},#{note},
+#{creationdt,jdbcType=LONGVARCHAR}, #{updatedt,jdbcType=LONGVARCHAR},
+#{creationuid,jdbcType=LONGVARCHAR},#{updateuid,jdbcType=LONGVARCHAR});
+</insert>
+
+
+    <update id="updateById" parameterType="com.example.demo.bean.dto.Task">
+    UPDATE BTASK SET TASK_PID = #{task_pid}
+,TASK_TID = #{task_tid}
+,TASK_NAME = #{taskname,jdbcType=LONGVARCHAR}
+,TASK_CRNUM = #{crnum,jdbcType=LONGVARCHAR}
+,TASK_DESCRIPTION = #{description,jdbcType=LONGVARCHAR}
+,TASK_DETAILS = #{details,jdbcType=LONGVARCHAR}
+,TASK_NOTE = #{note,jdbcType=LONGVARCHAR}
+,TASK_UPDATEDT = #{updatedt,jdbcType=LONGVARCHAR}
+,TASK_UPDATEUID = #{updateuid,jdbcType=LONGVARCHAR}
+    WHERE TASK_ID = #{taskid}
+    </update>
+
+
+</mapper>

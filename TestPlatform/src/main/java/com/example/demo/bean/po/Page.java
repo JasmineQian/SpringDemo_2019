@@ -1,4 +1,4 @@
-package com.example.demo.common;
+package com.example.demo.bean.po;
 
 public class Page {
 

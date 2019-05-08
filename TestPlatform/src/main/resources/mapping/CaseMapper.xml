@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.CaseMapper">
+
+    <resultMap id="CaseResult" type="com.example.demo.bean.dto.Case">
+        <result property="case_id" column="CASE_ID"/>
+        <result property="case_taskid" column="CASE_TASKID"/>
+        <result property="case_num" column="CASE_NUM"/>
+        <result property="case_pirorityid" column="CASE_PIRORITY"/>
+        <result property="case_piroritymemo" column="PIRORITY_NAME"/>
+        <result property="case_name" column="CASE_NAME"/>
+        <result property="case_precondition" column="CASE_PRECONDITION"/>
+        <result property="case_body" column="CASE_BODY"/>
+        <result property="case_assertion" column="CASE_ASSERTION"/>
+        <result property="case_pass_flag" column="CASE_PASSFLAG"/>
+        <result property="case_pass_memo" column="CASE_MEMO"/>
+        <result property="creationdt" column="CASE_CREATIONDT"/>
+        <result property="updateuid" column="CASE_UPDATEDT"/>
+        <result property="creationuid" column="CASE_CREATIONUID"/>
+        <result property="updateuid" column="CASE_UPDATEUID"/>
+    </resultMap>
+
+
+
+    <select id="getCaseByid" resultMap="CaseResult">
+		select CASE_ID,CASE_TASKID,CASE_NUM,CASE_PIRORITY,
+PIRORITY_NAME,CASE_NAME,CASE_PRECONDITION,
+CASE_BODY,CASE_ASSERTION,CASE_PASSFLAG,CASE_MEMO,
+CASE_CREATIONDT,CASE_UPDATEDT,CASE_CREATIONUID,CASE_UPDATEUID
+from bcase join RCASEPIRORITY on CASE_PIRORITY =  Pirority_id WHERE CASE_ID =#{ID} AND CASE_DELETED_FLAG=0
+ </select>
+
+
+    <select id="getCasesByPage" parameterType="com.example.demo.bean.dto.CaseSearchPage"
+            resultMap="CaseResult">
+        select CASE_ID,CASE_TASKID,CASE_NUM,CASE_PIRORITY,
+        PIRORITY_NAME,CASE_NAME,CASE_PRECONDITION,
+        CASE_BODY,CASE_ASSERTION,CASE_PASSFLAG,CASE_MEMO,
+        CASE_CREATIONDT,CASE_UPDATEDT,CASE_CREATIONUID,CASE_UPDATEUID
+        from bcase join RCASEPIRORITY on CASE_PIRORITY =  Pirority_id WHERE 1=1 and CASE_DELETED_FLAG =0
+        <if test="taskid!= 0">and CASE_TASKID = #{taskid}</if>
+        order by CASE_NUM limit #{pageon}, #{row}
+    </select>
+
+    <select id="countAll" resultType="int">
+     SELECT count(*) FROM BTASK where TASK_DELETED_FLAG=0
+	</select>
+
+    <insert id="insert" parameterType="com.example.demo.bean.dto.Case">
+
+INSERT into BTASK(
+TASK_PID,TASK_TID,TASK_NAME,TASK_CRNUM,
+TASK_DESCRIPTION,TASK_DETAILS,TASK_NOTE,
+TASK_CREATIONDT,TASK_UPDATEDT,TASK_CREATIONUID,TASK_UPDATEUID)
+VALUES(1,1,#{taskname},#{crnum},
+#{description},#{details},#{note},
+#{creationdt,jdbcType=LONGVARCHAR}, #{updatedt,jdbcType=LONGVARCHAR},
+#{creationuid,jdbcType=LONGVARCHAR},#{updateuid,jdbcType=LONGVARCHAR});
+</insert>
+
+
+    <update id="updateById" parameterType="com.example.demo.bean.dto.Case">
+    UPDATE BTASK SET TASK_PID = #{task_pid}
+,TASK_TID = #{task_tid}
+,TASK_NAME = #{taskname,jdbcType=LONGVARCHAR}
+,TASK_CRNUM = #{crnum,jdbcType=LONGVARCHAR}
+,TASK_DESCRIPTION = #{description,jdbcType=LONGVARCHAR}
+,TASK_DETAILS = #{details,jdbcType=LONGVARCHAR}
+,TASK_NOTE = #{note,jdbcType=LONGVARCHAR}
+,TASK_UPDATEDT = #{updatedt,jdbcType=LONGVARCHAR}
+,TASK_UPDATEUID = #{updateuid,jdbcType=LONGVARCHAR}
+    WHERE TASK_ID = #{taskid}
+    </update>
+
+
+</mapper>

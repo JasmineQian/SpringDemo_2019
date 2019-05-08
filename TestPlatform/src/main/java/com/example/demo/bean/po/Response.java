@@ -1,9 +1,13 @@
-package com.example.demo.common;
+package com.example.demo.bean.po;
 
-public class Response {
+import com.example.demo.common.Message;
+
+import java.io.Serializable;
+
+public class Response implements Serializable {
 
     String code;
-    String msg;
+    String message;
 
     public String getCode() {
         return code;
@@ -14,16 +18,15 @@ public class Response {
     }
 
     public String getMsg() {
-        return msg;
+        return message;
     }
 
     public void setMsg(String msg) {
-        this.msg = msg;
+        this.message = msg;
     }
-
 
     public Response(){
         this.code=Message.SUCCESS_CODE;
-        this.msg=Message.SUCCESS_MESSAGE;
+        this.message=Message.SUCCESS_MESSAGE;
     }
 }

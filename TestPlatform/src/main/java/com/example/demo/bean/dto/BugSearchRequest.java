@@ -1,6 +1,8 @@
 package com.example.demo.bean.dto;
 
-public class BugSearchRequest {
+import com.example.demo.bean.po.Page;
+
+public class BugSearchRequest extends Page {
 
     private String pname;
     private String crnum;
@@ -47,4 +49,5 @@ public class BugSearchRequest {
     public void setTester(String tester) {
         this.tester = tester;
     }
+
 }

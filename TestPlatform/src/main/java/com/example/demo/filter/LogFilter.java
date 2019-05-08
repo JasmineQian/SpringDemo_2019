@@ -3,7 +3,7 @@ package com.example.demo.filter;
 import com.alibaba.fastjson.JSONObject;
 import com.example.demo.bean.po.WebserviceLog;
 import com.example.demo.common.CONST;
-import com.example.demo.common.ResponseBean;
+import com.example.demo.bean.po.ResponseBean;
 import com.example.demo.common.UUID16;
 import com.example.demo.mapper.WebserviceLogMapper;
 import org.apache.commons.io.IOUtils;
@@ -154,7 +154,7 @@ public class LogFilter implements Filter {
         try {
             if (!StringUtils.isEmpty(responseContentType) && !responseContentType.contains("image")) {
                 ResponseBean responseBean = JSONObject.parseObject(responseBody, ResponseBean.class);
-                webLog.setWlgReturnMessage(responseBean.getMessage());
+                webLog.setWlgReturnMessage(responseBean.getMsg());
                 webLog.setWlgReturnCode(responseBean.getCode());
             }
         } catch (Exception e) {

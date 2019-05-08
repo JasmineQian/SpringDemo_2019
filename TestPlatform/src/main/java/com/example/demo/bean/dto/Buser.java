@@ -1,8 +1,5 @@
 package com.example.demo.bean.dto;
 
-import io.swagger.annotations.ApiModel;
-
-@ApiModel(value="UserEntity的实体类",description = "这是UserEntity对象")
 public class Buser {
 
     private Long id;
@@ -12,9 +9,7 @@ public class Buser {
     private String roles;
     private String emailaddress;
     private int groupId;
-
-
-
+    private int validFlag;
 
     public Long getId() {
         return id;
@@ -56,4 +51,27 @@ public class Buser {
         this.roles = roles;
     }
 
+    public String getEmailaddress() {
+        return emailaddress;
+    }
+
+    public void setEmailaddress(String emailaddress) {
+        this.emailaddress = emailaddress;
+    }
+
+    public int getGroupId() {
+        return groupId;
+    }
+
+    public void setGroupId(int groupId) {
+        this.groupId = groupId;
+    }
+
+    public int getValidFlag() {
+        return validFlag;
+    }
+
+    public void setValidFlag(int validFlag) {
+        this.validFlag = validFlag;
+    }
 }

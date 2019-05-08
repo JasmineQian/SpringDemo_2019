@@ -1,9 +1,10 @@
 package com.example.demo.service.impl;
 
 import com.example.demo.bean.dto.*;
+import com.example.demo.bean.po.ResponseBean;
 import com.example.demo.common.Message;
-import com.example.demo.common.Page;
-import com.example.demo.common.Response;
+import com.example.demo.bean.po.Page;
+import com.example.demo.bean.po.Response;
 import com.example.demo.mapper.BugMapper;
 import com.example.demo.service.BugService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,55 +22,77 @@ public class BugServiceImpl implements BugService {
     @Value("${sys.name}")
     private String uid;
 
+    @Value("${sys.PageSize}")
+    private int pagesize;
+
     @Autowired
     private BugMapper bugMapper;
 
 
     @Override
-    public Response getBugs() {
-        BugResponse re = new BugResponse();
+    public ResponseBean getBugs() {
+        ResponseBean re = new ResponseBean();
         List<Bug> lists = bugMapper.getBugs();
         re.setCode(Message.SUCCESS_CODE);
         re.setMsg(Message.SUCCESS_MESSAGE);
-        re.setBuglists(lists);
+        re.setData(lists);
         return re;
     }
 
     @Override
-    public Response getBugsByPage(Page page) {
-        BugResponse re = new BugResponse();
+    public ResponseBean getBugsByPage(Page page) {
+        ResponseBean re = new ResponseBean();
         List<Bug> lists = bugMapper.getBugsByPage(page);
         re.setCode(Message.SUCCESS_CODE);
         re.setMsg(Message.SUCCESS_MESSAGE);
-        re.setBuglists(lists);
+        re.setData(lists);
         return re;
     }
 
     @Override
-    public Response getBugsByPageByConditions(BugSearchRequest BugSearchRequest, Page page) {
-        BugResponse re = new BugResponse();
-        List<Bug> lists = bugMapper.getBugsByPage(page);
+    public ResponseBean getBugsByPageByConditions(BugSearchRequest BugSearchRequest) {
+        ResponseBean re = new ResponseBean();
+
+        if(BugSearchRequest.getCrnum() !=null)
+
+
+        {BugSearchRequest.setCrnum(BugSearchRequest.getCrnum().trim());}
+
+        if(BugSearchRequest.getDeveloper()!=null)
+        { BugSearchRequest.setDeveloper(BugSearchRequest.getDeveloper().trim());}
+
+        if(BugSearchRequest.getTasknum()!=null)
+        {BugSearchRequest.setTasknum(BugSearchRequest.getTasknum().trim());}
+
+        if(BugSearchRequest.getCurrentPage()<=0)
+        BugSearchRequest.setCurrentPage(1);
+
+        if(BugSearchRequest.getPageSize()<=0)
+            BugSearchRequest.setPageSize(pagesize);
+
+        List<Bug> lists = bugMapper.getBugsByPageByConditions(BugSearchRequest);
+        System.out.println("========================");
+        System.out.println(lists);
         re.setCode(Message.SUCCESS_CODE);
         re.setMsg(Message.SUCCESS_MESSAGE);
-        re.setBuglists(lists);
+        re.setData(lists);
         return re;
     }
 
     @Override
-    public Response getBugByid(BugRequest bugRequest) {
-        BugResponse re = new BugResponse();
-        Response response = new Response();
+    public ResponseBean getBugByid(BugRequest bugRequest) {
+        ResponseBean re = new ResponseBean();
         if (null == bugRequest.getId()) {
-            response.setCode(Message.ID_CODE);
-            response.setMsg(Message.ID_MESSAGE);
-            return response;
+            re.setCode(Message.ID_NOT_EXIST_CODE);
+            re.setMsg(Message.ID_NOT_EXIST_MESSAGE);
+            return re;
         }
 
 
         Bug buginfo = bugMapper.getBugByid(bugRequest.getId());
         re.setCode(Message.SUCCESS_CODE);
         re.setMsg(Message.SUCCESS_MESSAGE);
-        re.setBuginfo(buginfo);
+        re.setData(buginfo);
         return re;
     }
 

@@ -3,18 +3,19 @@ package com.example.demo.service;
 import com.example.demo.bean.dto.BugInsertRequest;
 import com.example.demo.bean.dto.BugRequest;
 import com.example.demo.bean.dto.BugSearchRequest;
-import com.example.demo.common.Page;
-import com.example.demo.common.Response;
+import com.example.demo.bean.po.Page;
+import com.example.demo.bean.po.Response;
+import com.example.demo.bean.po.ResponseBean;
 
 public interface BugService {
 
-    Response getBugs();
+    ResponseBean getBugs();
 
-    Response getBugsByPage(Page page);
+    ResponseBean getBugsByPage(Page page);
 
-    Response getBugsByPageByConditions(BugSearchRequest BugSearchRequest,Page page);
+    ResponseBean getBugsByPageByConditions(BugSearchRequest BugSearchRequest);
 
-    Response getBugByid(BugRequest bugRequest);
+    ResponseBean getBugByid(BugRequest bugRequest);
 
     Response addBug(BugInsertRequest bugInsertRequest);
 

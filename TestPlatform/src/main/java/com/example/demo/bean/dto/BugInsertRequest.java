@@ -1,6 +1,8 @@
 package com.example.demo.bean.dto;
 
-public class BugInsertRequest {
+import java.io.Serializable;
+
+public class BugInsertRequest implements Serializable {
 
     private long id;
     private String pname;

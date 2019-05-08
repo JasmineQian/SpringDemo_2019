@@ -1,4 +1,4 @@
-package com.example.demo.common;
+package com.example.demo.bean.po;
 
 import java.util.ArrayList;
 import java.util.List;

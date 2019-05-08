@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.demo.mapper.RtableMapper">
+
+
+    <resultMap id="RResult" type="com.example.demo.bean.dto.Rtable">
+        <result property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+    <select id="getBugStatusByid" resultMap="RResult">
+           SELECT STATUS_ID as id ,STATUS_DES as name  FROM RBUGSTATUS WHERE STATUS_ID =#{id}
+ </select>
+    <select id="getBugStatus" resultMap="RResult">
+         SELECT STATUS_ID as id ,STATUS_DES as name FROM RBUGSTATUS
+</select>
+
+
+    <select id="getProjectByid" resultMap="RResult">
+           SELECT PROJECT_ID as id ,PROJECT_NAME as name FROM RPROJECT WHERE PROJECT_ID =#{id}
+ </select>
+    <select id="getProject" resultMap="RResult">
+         SELECT PROJECT_ID as id ,PROJECT_NAME as name FROM RPROJECT
+</select>
+
+
+
+    <select id="getCRByid" resultMap="RResult">
+           SELECT CR_ID as id ,CR_NAME as name  FROM RCRTYPE WHERE CR_ID =#{id}
+ </select>
+    <select id="getCRStatus" resultMap="RResult">
+         SELECT CR_ID as id,CR_NAME as name FROM RCRTYPE
+</select>
+
+
+
+    <select id="getTestTypeByid" resultMap="RResult">
+           SELECT TEST_ID as id ,TEST_NAME as name  FROM RTESTTYPE WHERE TEST_ID =#{id}
+ </select>
+    <select id="getTestType" resultMap="RResult">
+         SELECT TEST_ID as id,TEST_NAME as name FROM RTESTTYPE
+</select>
+
+
+    <select id="getCasePirorityByid" resultMap="RResult">
+           SELECT PIRORITY_ID as id ,PIRORITY_NAME as name  FROM RCASEPIRORITY WHERE PIRORITY_ID =#{id}
+ </select>
+    <select id="getCasePirority" resultMap="RResult">
+         SELECT PIRORITY_ID as id,PIRORITY_NAME as name FROM RCASEPIRORITY
+</select>
+
+
+</mapper>

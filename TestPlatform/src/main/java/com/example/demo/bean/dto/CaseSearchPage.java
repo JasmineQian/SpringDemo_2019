@@ -2,7 +2,7 @@ package com.example.demo.bean.dto;
 
 import java.io.Serializable;
 
-public class CasePage implements Serializable {
+public class CaseSearchPage implements Serializable {
 
     protected int pageon;
     protected int rowcount;//每行的数量
@@ -11,9 +11,9 @@ public class CasePage implements Serializable {
     protected int start;
     protected int end;
     protected int pageNumber;
-    protected int var;
+    protected int taskid;
 
-    public CasePage(int pageon, int row, int rowcount) {
+    public CaseSearchPage(int pageon, int row, int rowcount) {
         pageNumber = 11;
         this.pageon = pageon;
         this.row = row;
@@ -21,7 +21,7 @@ public class CasePage implements Serializable {
         compute();
     }
 
-    public CasePage() {
+    public CaseSearchPage() {
         pageNumber = 11;
     }
 
@@ -41,12 +41,13 @@ public class CasePage implements Serializable {
             end = rowcount;
     }
 
-    public CasePage(int pageon, int row) {
+    public CaseSearchPage(int pageon, int row) {
         pageNumber = 11;
         this.pageon = pageon;
         this.row = row;
     }
-    public CasePage(int pageon) {
+
+    public CaseSearchPage(int pageon) {
         pageNumber = 11;
         this.pageon = pageon;
     }
@@ -107,11 +108,11 @@ public class CasePage implements Serializable {
         this.pageNumber = pageNumber;
     }
 
-    public int getVar() {
-        return var;
+    public int getTaskid() {
+        return taskid;
     }
 
-    public void setVar(int var) {
-        this.var = var;
+    public void setTaskid(int taskid) {
+        this.taskid = taskid;
     }
 }

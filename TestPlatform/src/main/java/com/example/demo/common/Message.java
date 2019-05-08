@@ -17,12 +17,12 @@ public class Message {
     public static final String FIELD_INVALID = "4002";
 
 
-    public static final String ID_CODE = "4003";
-    public static final String ID_MESSAGE = "This id is not exist plsease check";
+    public static final String ID_NOT_EXIST_CODE = "4003";
+    public static final String ID_NOT_EXIST_MESSAGE = "This id is not exist plsease check";
 
 
-    public static final String VAR_CODE = "4004";
-    public static final String VAR_MESSAGE = "nessary params not eixt plsease check";
+    public static final String VAR_NOT_EXIST_CODE = "4004";
+    public static final String VAR_NOT_EXIST_MESSAGE = "nessary params not eixt plsease check";
 
     public static final String CAPTCHA_ERROR_CODE= "4003";
     public static final String CAPTCHA_ERROR_MESSAGE= "captcha code is error please try again";

@@ -1,6 +1,8 @@
 package com.example.demo.interceptor;
 
 import com.example.demo.common.CONST;
+import com.example.demo.exceptions.TokenException;
+import com.example.demo.exceptions.TokenExpireException;
 import com.sun.org.apache.xerces.internal.impl.dv.util.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,6 +12,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
 
 @Component
 public class TokenInterceptor implements HandlerInterceptor {
@@ -54,12 +57,12 @@ public class TokenInterceptor implements HandlerInterceptor {
         String code = decode.substring(10);
 
         // 判断 SOP_CODE 是否存在
-        RDataSource dataSource = dataSourceService.findDataSourceByCode(code);
+        /*RDataSource dataSource = dataSourceService.findDataSourceByCode(code);
         if (dataSource == null) {
             throw new TokenException();
         }
 
-        httpServletRequest.setAttribute(CONST.DATASOURCE_KEY, dataSource);
+        httpServletRequest.setAttribute(CONST.DATASOURCE_KEY, dataSource);*/
         return true;
     }
 
@@ -70,19 +73,23 @@ public class TokenInterceptor implements HandlerInterceptor {
      * @param token
      * @return
      */
+
     private String decodeToken(String token) {
         return new String(Base64.decode(token));
     }
 
-    /**
-     * 判断是不是时间戳开头
-     *
-     * @param token
-     * @return Boolean
-     */
+
+/**
+ * 判断是不是时间戳开头
+ *
+ * @param token
+ * @return Boolean
+ */
     private boolean vaildToken(String token) {
         return token.matches("\\d{10}.*");
     }
+
+
 
     /**
      * 提取明文token的时间戳部分
@@ -90,17 +97,18 @@ public class TokenInterceptor implements HandlerInterceptor {
      * @param decodeToken
      * @return
      */
+
     private long findTimestemp(String decodeToken) {
         return new Long(decodeToken.substring(0, 10));
     }
 
 
-    /**
-     * 判断是否过期 如果 auth.token.expire = 0 不过期
+    /* 判断是否过期 如果 auth.token.expire = 0 不过期
      *
      * @param timestemp
      * @return
      */
+
     private boolean isExpire(long timestemp) {
         if (expire == 0) {
             return false;
@@ -109,3 +117,5 @@ public class TokenInterceptor implements HandlerInterceptor {
         return deff > expire;
     }
 }
+
+

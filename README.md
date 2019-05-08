@@ -12,7 +12,7 @@
 
 #### 每个项目的阶段
 
-#### SpringDemo2项目是springbooth中value注入的学习
+#### SpringDemo2项目是springboot中value注入的学习
 
 #### mybatis项目是springboot+mybatis+mybatis插件，自动生成mapper映射文件和dao接口，实体类等类文件
 

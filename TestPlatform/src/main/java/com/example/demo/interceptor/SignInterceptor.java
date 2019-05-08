@@ -17,10 +17,6 @@ import java.util.Map;
 public class SignInterceptor implements HandlerInterceptor {
 
 
-    @Value("${auth.token.expire}")
-    private Integer expire;
-
-
     @Override
     public boolean preHandle(HttpServletRequest httpServletRequest,
                              HttpServletResponse httpServletResponse, Object o) throws Exception {
@@ -41,11 +37,11 @@ public class SignInterceptor implements HandlerInterceptor {
         String sign = map.get(CONST.SIGN).toString();
         String signCal = SignUtil.signTopRequest(map, CONST.SECRET);
         if (!sign.equals(signCal)) {
-            throw e;
             System.out.println(body);
-            return true;
+            throw e;
         }
-    }
 
+        return true;
+    }
 
 }
